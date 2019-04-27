@@ -79,7 +79,7 @@ class NN_Sigmoid:
         self._cost = tf.reduce_mean(self._cross_entropy)
         if optimizer == "Adam":
             self._optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(self._cost)
-        if optimizer == "GD":
+        elif optimizer == "GD":
             self._optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate).minimize(self._cost)
         # --->>> implement optimizer != GD or Adam handler
 
@@ -94,8 +94,8 @@ class NN_Sigmoid:
 
     ####################################
     def train(
-        self, numEpochs, learning_rate, trainX, trainY, 
-        valX=None, valY=None, val_epochs=None
+        self, numEpochs, trainX, trainY, 
+        valX=None, valY=None, val_epochs=None, val_patience=None
     ):
         """
         Train NN on features "trainX" an labels "trainY".
@@ -104,7 +104,11 @@ class NN_Sigmoid:
         
         "valX" and "valY" is the validation set.
 
-        "val_epochs" is the number of epochs between each training evaluation 
+        "val_epochs" is the number of epochs between each training evaluation.
+
+        "val_patience" is the number of times that the loss on the validation 
+        set can be larger than or equal to the previously smallest loss before 
+        network training stops. 
         """
 
         if valX is None or valY is None:
@@ -124,6 +128,7 @@ class NN_Sigmoid:
         sess = self._sess # tf session
         sess.run(tf.global_variables_initializer())
 
+        break_point = numEpochs
         for step in range(numEpochs + 1):
             # train
             sess.run(self._optimizer, feed_dict={self._X: trainX, self._yGold: trainY})
@@ -145,6 +150,15 @@ class NN_Sigmoid:
                     step, cost_history[-1], acc_history[-1], f1_history[-1]))
                 print("VS: Epoch: {:5}\tLoss: {:.3f}\tAcc: {:.2%}\tF1: {:.3f}\n".format(
                     step, loss, acc, f1))
+                # val patience, stop training if no improvement in loss
+                if not val_patience is None: # defined by user
+                    if len(val_cost_history) > val_patience + 1: # enough points for test
+                        if check_val_patience(val_cost_history[1:], val_patience):
+                            print("-->> Patience reached: stop training\n")
+                            break_point = step
+                            break # patience reached
+                        
+            
 
         # Final cost and accuracy on VS   
         loss, acc, f1 = sess.run([self._cost, self._accuracy, self._F1_score],
@@ -152,7 +166,7 @@ class NN_Sigmoid:
         val_acc_history = np.append(val_acc_history, acc)
         val_f1_history = np.append(val_f1_history, f1)
         val_cost_history = np.append(val_cost_history, loss)
-        val_epoch = np.append(val_epoch, numEpochs)
+        val_epoch = np.append(val_epoch, break_point)
         print("Final VS: Epoch: {:5}\tLoss: {:.3f}\tAcc: {:.2%}\tF1: {:.3f}\n".format(
             step, loss, acc, f1))
 
@@ -231,6 +245,27 @@ class NN_Sigmoid:
 # Helper functions
 ####################################
 
+def check_val_patience(cost, val_patience):
+    """
+    check if training patience reached
+
+    "cost" is vector with computed losses.
+
+    "val_patience" is the number of times that the loss on the validation 
+        set can be larger than or equal to the previously smallest loss before 
+        network training stops.  
+
+    return:
+        "True" if patience limit reached
+    """
+
+    min_last_cost = min(cost[-val_patience:])
+    min_cost = min(cost)
+    if min_last_cost > min_cost:
+        return True # patience reached
+    return False
+
+
 def compute_f1_score(actual, predicted):
 
     TP = tf.count_nonzero(predicted * actual)
@@ -288,18 +323,18 @@ if __name__=="__main__":
 
     # init
     NN = NN_Sigmoid(
-        hiddenLayers, numFeatures, numLabels, 0.01,
+        hiddenLayers, numFeatures, numLabels, 0.05,
         cross_entropy_weight = 4,
         optimizer = "Adam"
     )
     # train
     acc_history, f1_history, cost_history,\
     val_acc_history, val_f1_history, val_cost_history, val_epoch = NN.train(
-        1000, 0.01, trainX, trainY, 
-        valX=valX, valY=valY, val_epochs=25
+        1000, trainX, trainY, 
+        valX=valX, valY=valY, val_epochs=25, val_patience=15
     )
     # test
-    NN.predict(
+    _, loss, acc, f1 = NN.predict(
         testX, testY
     )
     # save session
@@ -327,16 +362,22 @@ if __name__=="__main__":
     plt.subplot(131)
     plt.plot(range(len(cost_history)),cost_history)
     plt.plot(val_epoch,val_cost_history, 'ro-')
+    xmax = max([max(range(len(cost_history))), max(val_epoch)])
+    plt.hlines(loss, 0, xmax, colors='g', linestyles='solid', label='test set')
     plt.title('Cost')
 
     plt.subplot(132)
     plt.plot(range(len(acc_history)),acc_history)
     plt.plot(val_epoch,val_acc_history, 'ro-')
+    xmax = max([max(range(len(cost_history))), max(val_epoch)])
+    plt.hlines(acc, 0, xmax, colors='g', linestyles='solid', label='test set')
     plt.title('Accuracy')
 
     plt.subplot(133)
     plt.plot(range(len(f1_history)),f1_history)
     plt.plot(val_epoch,val_f1_history, 'ro-')
+    xmax = max([max(range(len(cost_history))), max(val_epoch)])
+    plt.hlines(f1, 0, xmax, colors='g', linestyles='solid', label='test set')
     plt.title('F1-Score')
 
     plt.show()
