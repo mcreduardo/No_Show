@@ -19,7 +19,13 @@ noShow_y = np.array([[i] for i in noShow_y])
 
 # separate training and test set randomly keeping classes ratio
 trainX, testX, trainY, testY = train_test_split(
-    noShow_X, noShow_y, test_size=0.33, random_state=42,
+    noShow_X, noShow_y, test_size=0.2, random_state=42,
+    stratify = noShow_y
+)
+
+# separate training in validation and training set
+trainX, valX, trainY, valY = train_test_split(
+    trainX, trainY, test_size=0.2, random_state=42,
     stratify = noShow_y
 )
 
@@ -58,12 +64,11 @@ NN.save_session("Saved_sessions/model.ckpt")
 # close tf session
 NN.close_session()
 
-
+'''
 # create new untrained NN
 NN2 = nns.NN_Sigmoid(hiddenLayers, numFeatures, numLabels, 0.01,
     cross_entropy_weight = 4,
     optimizer = "Adam")
-
 
 # load session
 NN2.load_session("Saved_sessions/model.ckpt")
@@ -72,3 +77,4 @@ NN2.load_session("Saved_sessions/model.ckpt")
 NN2.predict(
     testX, testY
 )
+'''

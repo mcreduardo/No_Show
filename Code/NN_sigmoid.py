@@ -83,6 +83,9 @@ class NN_Sigmoid:
             self._optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate).minimize(self._cost)
         # --->>> implement optimizer != GD or Adam handler
 
+        # compute f1 score
+        self._F1_score = compute_f1_score(self._yGold, tf.round(self._predicted))
+
         # saver to save session
         self._saver = tf.train.Saver()
 
@@ -111,9 +114,12 @@ class NN_Sigmoid:
         
         # track cost
         acc_history = np.empty(shape=[1],dtype=float)
+        f1_history = np.empty(shape=[1],dtype=float)
         cost_history = np.empty(shape=[1],dtype=float)
         val_acc_history = np.empty(shape=[1],dtype=float)
+        val_f1_history = np.empty(shape=[1],dtype=float)
         val_cost_history = np.empty(shape=[1],dtype=float)
+        val_epoch = np.empty(shape=[1],dtype=float)
 
         sess = self._sess # tf session
         sess.run(tf.global_variables_initializer())
@@ -122,28 +128,45 @@ class NN_Sigmoid:
             # train
             sess.run(self._optimizer, feed_dict={self._X: trainX, self._yGold: trainY})
             # compute cost and accuracy on TS
-            loss, acc = sess.run([self._cost, self._accuracy],
+            loss, acc, f1 = sess.run([self._cost, self._accuracy, self._F1_score],
                 feed_dict={self._X: trainX, self._yGold: trainY})
             acc_history = np.append(acc_history, acc)
+            f1_history = np.append(f1_history, f1)
             cost_history = np.append(cost_history, loss)
             # compute cost and accuracy on VS
             if step % val_epochs == 0:
-                loss, acc = sess.run([self._cost, self._accuracy],
+                loss, acc, f1 = sess.run([self._cost, self._accuracy, self._F1_score],
                     feed_dict={self._X: valX, self._yGold: valY})
-                val_acc_history = np.append(acc_history, acc)
-                val_cost_history = np.append(cost_history, loss)
-                print("TS: Epoch: {:5}\tLoss: {:.3f}\tAcc: {:.2%}".format(step, cost_history[-1], acc_history[-1]))
-                print("VS: Epoch: {:5}\tLoss: {:.3f}\tAcc: {:.2%}\n".format(step, loss, acc))
+                val_acc_history = np.append(val_acc_history, acc)
+                val_f1_history = np.append(val_f1_history, f1)
+                val_cost_history = np.append(val_cost_history, loss)
+                val_epoch = np.append(val_epoch, step)
+                print("TS: Epoch: {:5}\tLoss: {:.3f}\tAcc: {:.2%}\tF1: {:.3f}".format(
+                    step, cost_history[-1], acc_history[-1], f1_history[-1]))
+                print("VS: Epoch: {:5}\tLoss: {:.3f}\tAcc: {:.2%}\tF1: {:.3f}\n".format(
+                    step, loss, acc, f1))
 
         # Final cost and accuracy on VS   
-        loss, acc = sess.run([self._cost, self._accuracy],
+        loss, acc, f1 = sess.run([self._cost, self._accuracy, self._F1_score],
             feed_dict={self._X: valX, self._yGold: valY})
-        val_acc_history = np.append(acc_history, acc)
-        val_cost_history = np.append(cost_history, loss)
-        print("Final VS: Epoch: {:5}\tLoss: {:.3f}\tAcc: {:.2%}\n".format(step, loss, acc))
+        val_acc_history = np.append(val_acc_history, acc)
+        val_f1_history = np.append(val_f1_history, f1)
+        val_cost_history = np.append(val_cost_history, loss)
+        val_epoch = np.append(val_epoch, numEpochs)
+        print("Final VS: Epoch: {:5}\tLoss: {:.3f}\tAcc: {:.2%}\tF1: {:.3f}\n".format(
+            step, loss, acc, f1))
 
 
-        return acc_history, cost_history, val_acc_history, val_cost_history
+
+        acc_history = acc_history[1:]
+        f1_history = f1_history[1:]
+        cost_history =cost_history[1:]
+        val_acc_history = val_acc_history[1:]
+        val_f1_history = val_f1_history[1:]
+        val_cost_history = val_cost_history[1:]
+        val_epoch = val_epoch[1:]
+
+        return acc_history, f1_history, cost_history, val_acc_history, val_f1_history, val_cost_history, val_epoch
 
 
 
@@ -151,15 +174,14 @@ class NN_Sigmoid:
     ####################################
     def predict(self, testX, testY):
 
-        predicted, loss, acc = self._sess.run(
-            [self._predicted, self._cost, self._accuracy],
+        actual, predicted, loss, acc, f1 = self._sess.run(
+            [self._yGold, self._predicted, self._cost, self._accuracy, self._F1_score],
             feed_dict={self._X: testX, self._yGold: testY}
         )
 
-        print("Test Set:\tLoss: {:.3f}\tAcc: {:.2%}\n".format(loss, acc))
-
-        return predicted, loss, acc
-
+        print("Test Set:\tLoss: {:.3f}\tAcc: {:.2%}\tF1: {:.3f}\n".format(loss, acc, f1))
+        
+        return predicted, loss, acc, f1
 
 
 
@@ -205,15 +227,41 @@ class NN_Sigmoid:
         return
     '''
 
+####################################
+# Helper functions
+####################################
+
+def compute_f1_score(actual, predicted):
+
+    TP = tf.count_nonzero(predicted * actual)
+    TN = tf.count_nonzero((predicted - 1) * (actual - 1))
+    FP = tf.count_nonzero(predicted * (actual - 1))
+    FN = tf.count_nonzero((predicted - 1) * actual)
+
+    precision = TP / (TP + FP)
+    recall = TP / (TP + FN)
+    f1 = 2 * precision * recall / (precision + recall)
+
+    return f1
+
+def plot_PR_curve(actual, scores):
+
+    return
 
 
+
+
+
+####################################
 # Usage example
+####################################
 if __name__=="__main__":
 
     import pandas as pd # load csv data
     import numpy as np
     from sklearn.model_selection import train_test_split # split into training and test set
     import dataset as ds # load dataset
+    import matplotlib.pyplot as plt # plotting
 
     # load dataset
     noShow = ds.import_data_df([ds._FILE_PATHS['merged']])
@@ -222,12 +270,17 @@ if __name__=="__main__":
 
     # separate training and test set randomly keeping classes ratio
     trainX, testX, trainY, testY = train_test_split(
-        noShow_X, noShow_y, test_size=0.33, random_state=42,
+        noShow_X, noShow_y, test_size=0.2, random_state=42,
         stratify = noShow_y
+    )
+    # separate training in validation and training set
+    trainX, valX, trainY, valY = train_test_split(
+        trainX, trainY, test_size=0.15, random_state=42,
+        stratify = trainY
     )
 
     # Hidden layers
-    hiddenLayers = [10, 5] 
+    hiddenLayers = [10, 10, 10, 10, 10, 10, 10, 10, 5] 
     # number of features
     numFeatures = trainX.shape[1]
     # number of classes
@@ -240,10 +293,11 @@ if __name__=="__main__":
         optimizer = "Adam"
     )
     # train
-    NN.train(
-            150, 0.01, trainX, trainY, 
-            valX=testX, valY=testY, val_epochs=50
-        )
+    acc_history, f1_history, cost_history,\
+    val_acc_history, val_f1_history, val_cost_history, val_epoch = NN.train(
+        1000, 0.01, trainX, trainY, 
+        valX=valX, valY=valY, val_epochs=25
+    )
     # test
     NN.predict(
         testX, testY
@@ -267,3 +321,22 @@ if __name__=="__main__":
         testX, testY
     )
     '''
+
+   
+    # Plot loss, accuracy, f1
+    plt.subplot(131)
+    plt.plot(range(len(cost_history)),cost_history)
+    plt.plot(val_epoch,val_cost_history, 'ro-')
+    plt.title('Cost')
+
+    plt.subplot(132)
+    plt.plot(range(len(acc_history)),acc_history)
+    plt.plot(val_epoch,val_acc_history, 'ro-')
+    plt.title('Accuracy')
+
+    plt.subplot(133)
+    plt.plot(range(len(f1_history)),f1_history)
+    plt.plot(val_epoch,val_f1_history, 'ro-')
+    plt.title('F1-Score')
+
+    plt.show()
