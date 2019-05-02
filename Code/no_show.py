@@ -92,7 +92,7 @@ def k_fold_cross_validation(k, hiddenLayers, numEpochs):
 if __name__=="__main__":
 
     with Suppressor():
-        hiddenLayers = [10, 5]
+        hiddenLayers = [20, 20,20,20,10,5]
         numEpochs = 500
         k = 10
         loss, acc, f1 = k_fold_cross_validation(k, hiddenLayers, numEpochs)

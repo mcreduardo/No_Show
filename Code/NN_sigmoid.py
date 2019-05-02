@@ -315,7 +315,7 @@ if __name__=="__main__":
     )
 
     # Hidden layers
-    hiddenLayers = [10, 10, 10, 10, 10, 10, 10, 10, 5] 
+    hiddenLayers = [10, 10, 10, 5] 
     # number of features
     numFeatures = trainX.shape[1]
     # number of classes
@@ -331,7 +331,7 @@ if __name__=="__main__":
     acc_history, f1_history, cost_history,\
     val_acc_history, val_f1_history, val_cost_history, val_epoch = NN.train(
         1000, trainX, trainY, 
-        valX=valX, valY=valY, val_epochs=25, val_patience=15
+        valX=valX, valY=valY, val_epochs=25, val_patience=5
     )
     # test
     _, loss, acc, f1 = NN.predict(
