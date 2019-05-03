@@ -308,6 +308,7 @@ if __name__=="__main__":
         noShow_X, noShow_y, test_size=0.2, random_state=42,
         stratify = noShow_y
     )
+    
     # separate training in validation and training set
     trainX, valX, trainY, valY = train_test_split(
         trainX, trainY, test_size=0.15, random_state=42,
