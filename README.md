@@ -22,8 +22,10 @@ Fully-connected Neural Network with Sigmoid activation
 * Fully connected layers with ReLU activation;
 * Sigmoid activation;
 * Optimizers:
+
    Stochastic Gradient Descent  
    Adam
 * Loss:
+
    Cross entropy  
    Weighted cross entropy: the data set used is binary with a 80/20 ratio
