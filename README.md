@@ -28,4 +28,5 @@ Fully-connected Neural Network with Sigmoid activation
 * Loss:
 
    Cross entropy  
-   Weighted cross entropy: the data set used is binary with a 80/20 ratio
+   Weighted cross entropy: the data set used is binary with a 80/20 ratio  
+* Early stoppage based on validation set implemented to avoid overfitting.
