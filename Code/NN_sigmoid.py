@@ -52,6 +52,7 @@ class NN_Sigmoid:
         # Placeholders
         self._X = tf.placeholder(tf.float32, [None, numFeatures])
         self._yGold = tf.placeholder(tf.float32, [None, numLabels])
+        self._weights = tf.placeholder(tf.float32, [None, numLabels]) # for adaboost
 
         # weights init
         self._initializer = tf.contrib.layers.xavier_initializer()
@@ -76,7 +77,7 @@ class NN_Sigmoid:
         else:
             self._cross_entropy = tf.nn.weighted_cross_entropy_with_logits(
                 pos_weight = cross_entropy_weight,targets=self._yGold, logits=self._output_layer)
-        self._cost = tf.reduce_mean(self._cross_entropy)
+        self._cost = tf.reduce_mean(tf.math.multiply(self._cross_entropy, self._weights))
         if optimizer == "Adam":
             self._optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(self._cost)
         elif optimizer == "GD":
@@ -95,7 +96,8 @@ class NN_Sigmoid:
     ####################################
     def train(
         self, numEpochs, trainX, trainY, 
-        valX=None, valY=None, val_epochs=None, val_patience=None
+        valX=None, valY=None, val_epochs=None, val_patience=None,
+        weightsTrain=None, weightsVal=None
     ):
         """
         Train NN on features "trainX" an labels "trainY".
@@ -115,6 +117,11 @@ class NN_Sigmoid:
             valX = trainX; valY = trainY
         if val_epochs is None:
             val_epochs = int(numEpochs/100)
+
+        if weightsTrain is None:
+            weightsTrain = (np.array(trainY).astype(int)/10)+1
+        if weightsVal is None:
+            weightsVal = (np.array(valY).astype(int)/10)+1
         
         # track cost
         acc_history = np.empty(shape=[1],dtype=float)
@@ -131,17 +138,17 @@ class NN_Sigmoid:
         break_point = numEpochs
         for step in range(numEpochs + 1):
             # train
-            sess.run(self._optimizer, feed_dict={self._X: trainX, self._yGold: trainY})
+            sess.run(self._optimizer, feed_dict={self._X: trainX, self._yGold: trainY, self._weights: weightsTrain})
             # compute cost and accuracy on TS
             loss, acc, f1 = sess.run([self._cost, self._accuracy, self._F1_score],
-                feed_dict={self._X: trainX, self._yGold: trainY})
+                feed_dict={self._X: trainX, self._yGold: trainY, self._weights: weightsTrain})
             acc_history = np.append(acc_history, acc)
             f1_history = np.append(f1_history, f1)
             cost_history = np.append(cost_history, loss)
             # compute cost and accuracy on VS
             if step % val_epochs == 0:
                 loss, acc, f1 = sess.run([self._cost, self._accuracy, self._F1_score],
-                    feed_dict={self._X: valX, self._yGold: valY})
+                    feed_dict={self._X: valX, self._yGold: valY, self._weights: weightsVal})
                 val_acc_history = np.append(val_acc_history, acc)
                 val_f1_history = np.append(val_f1_history, f1)
                 val_cost_history = np.append(val_cost_history, loss)
@@ -162,7 +169,7 @@ class NN_Sigmoid:
 
         # Final cost and accuracy on VS   
         loss, acc, f1 = sess.run([self._cost, self._accuracy, self._F1_score],
-            feed_dict={self._X: valX, self._yGold: valY})
+            feed_dict={self._X: valX, self._yGold: valY, self._weights: weightsVal})
         val_acc_history = np.append(val_acc_history, acc)
         val_f1_history = np.append(val_f1_history, f1)
         val_cost_history = np.append(val_cost_history, loss)
@@ -188,9 +195,11 @@ class NN_Sigmoid:
     ####################################
     def predict(self, testX, testY):
 
+        weights = (np.array(testY).astype(int)/10)+1
+
         actual, predicted, loss, acc, f1 = self._sess.run(
             [self._yGold, self._predicted, self._cost, self._accuracy, self._F1_score],
-            feed_dict={self._X: testX, self._yGold: testY}
+            feed_dict={self._X: testX, self._yGold: testY, self._weights: weights}
         )
 
         print("Test Set:\tLoss: {:.3f}\tAcc: {:.2%}\tF1: {:.3f}\n".format(loss, acc, f1))
@@ -329,15 +338,19 @@ if __name__=="__main__":
         optimizer = "Adam"
     )
     # train
+    weights = (np.array(trainY).astype(int)/10)+.5
+
     acc_history, f1_history, cost_history,\
     val_acc_history, val_f1_history, val_cost_history, val_epoch = NN.train(
         1000, trainX, trainY, 
-        valX=valX, valY=valY, val_epochs=25, val_patience=5
+        valX=valX, valY=valY, val_epochs=25, val_patience=5,
+        weightsTrain=weights
     )
     # test
-    _, loss, acc, f1 = NN.predict(
+    prediction, loss, acc, f1 = NN.predict(
         testX, testY
     )
+    
     # save session
     #NN.save_session("Saved_sessions/model.ckpt")
     # close tf session
