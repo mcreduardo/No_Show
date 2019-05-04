@@ -24,23 +24,23 @@ noShow_X, noShow_y = noShow.iloc[:, :-1].values, noShow.iloc[:, -1].values
 noShow_y = np.array([[i] for i in noShow_y])
 
 # separate training and test set randomly keeping classes ratio
-trainX, testX, trainY, testY = train_test_split(
+train_X, testX, train_Y, testY = train_test_split(
     noShow_X, noShow_y, test_size=0.2, random_state=42,
     stratify = noShow_y
 )
 
 # number of features
-numFeatures = trainX.shape[1]
+numFeatures = train_X.shape[1]
 # number of classes
-numLabels = trainY.shape[1]
+numLabels = train_Y.shape[1]
 
 NN = []
 for i in range(numModels):
 
     # separate training in validation and training set
     trainX, valX, trainY, valY = train_test_split(
-        trainX, trainY, test_size=0.15, random_state=42,
-        stratify = trainY
+        train_X, train_Y, test_size=0.15, random_state=42,
+        stratify = train_Y
     )
 
     # Hidden layers
@@ -55,7 +55,7 @@ for i in range(numModels):
     # train
     net.train(
         500, trainX, trainY, 
-        valX=valX, valY=valY, val_epochs=25, val_patience=10
+        valX=valX, valY=valY, val_epochs=15, val_patience=10
     )
 
     NN.append(net)
