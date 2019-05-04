@@ -16,7 +16,7 @@ from no_show import Suppressor # supress std output
 
 #with Suppressor():
 
-numModels = 2
+numModels = 20
 
 # load dataset
 noShow = ds.import_data_df([ds._FILE_PATHS['merged']])
@@ -55,7 +55,7 @@ for i in range(numModels):
     # train
     net.train(
         500, trainX, trainY, 
-        valX=valX, valY=valY, val_epochs=25, val_patience=5
+        valX=valX, valY=valY, val_epochs=25, val_patience=10
     )
 
     NN.append(net)
