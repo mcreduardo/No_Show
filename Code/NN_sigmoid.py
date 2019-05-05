@@ -79,7 +79,7 @@ class NN_Sigmoid:
         self._cost = tf.reduce_mean(self._cross_entropy)
         if optimizer == "Adam":
             self._optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(self._cost)
-        elif optimizer == "GD":
+        elif optimizer == "sGD":
             self._optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate).minimize(self._cost)
         # --->>> implement optimizer != GD or Adam handler
 
@@ -295,6 +295,7 @@ if __name__=="__main__":
     import pandas as pd # load csv data
     import numpy as np
     from sklearn.model_selection import train_test_split # split into training and test set
+    from sklearn.metrics import roc_curve, precision_recall_curve, roc_auc_score, confusion_matrix
     import dataset as ds # load dataset
     import matplotlib.pyplot as plt # plotting
 
@@ -315,7 +316,7 @@ if __name__=="__main__":
     )
 
     # Hidden layers
-    hiddenLayers = [10, 10, 10, 5] 
+    hiddenLayers = [] 
     # number of features
     numFeatures = trainX.shape[1]
     # number of classes
@@ -330,11 +331,11 @@ if __name__=="__main__":
     # train
     acc_history, f1_history, cost_history,\
     val_acc_history, val_f1_history, val_cost_history, val_epoch = NN.train(
-        1000, trainX, trainY, 
+        500, trainX, trainY, 
         valX=valX, valY=valY, val_epochs=25, val_patience=5
     )
     # test
-    _, loss, acc, f1 = NN.predict(
+    predictions, loss, acc, f1 = NN.predict(
         testX, testY
     )
     # save session
@@ -357,27 +358,60 @@ if __name__=="__main__":
     )
     '''
 
+    testY = np.array([i[0] for i in testY])
+    predictions = np.array([i[0] for i in predictions])
+
+    print("Confusion Matrix:")
+    print(confusion_matrix(testY, np.around(predictions)))
+
    
     # Plot loss, accuracy, f1
-    plt.subplot(131)
+    plt.subplot(121)
     plt.plot(range(len(cost_history)),cost_history)
     plt.plot(val_epoch,val_cost_history, 'ro-')
     xmax = max([max(range(len(cost_history))), max(val_epoch)])
     plt.hlines(loss, 0, xmax, colors='g', linestyles='solid', label='test set')
+    plt.xlabel('Epoch')
     plt.title('Cost')
 
-    plt.subplot(132)
-    plt.plot(range(len(acc_history)),acc_history)
-    plt.plot(val_epoch,val_acc_history, 'ro-')
-    xmax = max([max(range(len(cost_history))), max(val_epoch)])
-    plt.hlines(acc, 0, xmax, colors='g', linestyles='solid', label='test set')
-    plt.title('Accuracy')
 
-    plt.subplot(133)
-    plt.plot(range(len(f1_history)),f1_history)
-    plt.plot(val_epoch,val_f1_history, 'ro-')
+    plt.subplot(122)
+    plt.plot(range(len(f1_history)),f1_history, label='training set')
+    plt.plot(val_epoch,val_f1_history, 'ro-', label='validation set')
     xmax = max([max(range(len(cost_history))), max(val_epoch)])
     plt.hlines(f1, 0, xmax, colors='g', linestyles='solid', label='test set')
     plt.title('F1-Score')
+    plt.xlabel('Epoch')
+    plt.legend()
 
     plt.show()
+
+    
+
+    #print(roc_auc_score(testY, predictions))
+
+
+    fpr,tpr,_ = roc_curve(testY, predictions)
+    plt.title('Receiver Operating Characteristic')
+    plt.plot(fpr, tpr, label='ROC')
+    plt.plot([0, 1], [0, 1],'r--')
+    plt.xlim([0, 1])
+    plt.ylim([0, 1])
+    plt.ylabel('True Positive Rate / Precision')
+    plt.xlabel('False Positive Rate / Recall')
+    
+    pr, re,threshold = precision_recall_curve(testY, predictions)
+    plt.title('Receiver Operating Characteristics (ROC) and Precision Recall (PR) Curves')
+    plt.plot(re, pr, label='PR')
+    plt.xlim([0, 1])
+    plt.ylim([0, 1])
+    plt.legend()
+
+
+    plt.show()
+    '''
+    plt.plot(re)    
+    plt.plot(pr)
+    plt.plot(threshold)
+    plt.show()
+    '''
