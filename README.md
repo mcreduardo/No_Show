@@ -80,7 +80,8 @@ class NN_Sigmoid:
         network training stops. 
         """
 
-        return acc_history, f1_history, cost_history, val_acc_history, val_f1_history, val_cost_history, val_epoch
+        return acc_history, f1_history, cost_history, val_acc_history,\
+            val_f1_history, val_cost_history, val_epoch
    
    def predict(self, testX, testY)
          """
