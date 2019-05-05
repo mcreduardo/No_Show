@@ -96,13 +96,21 @@ Optimizers comparison:
 Learning rates for Adam comparison:  
 ![](Results/lr.png)
 
-Depth comparison (overfitting occur):  
+Depth comparison with 10-fold cross validation (overfitting occur):  
 ![](Results/nhl.png)
 
 Training:    
 * 1 hidden layer with 10 units   
-* Optimizer = Adam with lr = 0.05     
+* Optimizer = Adam with learning rate of 0.05     
 ![](Results/training.png) 
+
+Results:  
+* F1-Score = 0.441  
+* AUC of ROC = 0.725  
+* Precision = 0.335  
+* Recall = 0.639  
+* Accuracy = 0.681  
+
 
 
 ROC and PR curves:    
