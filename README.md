@@ -29,4 +29,63 @@ Fully-connected Neural Network with Sigmoid activation
 
    Cross entropy  
    Weighted cross entropy: the data set used is binary with a 80/20 ratio  
-* Early stoppage based on validation set implemented to avoid overfitting.
+* Early stopping based on validation set implemented to avoid overfitting.
+
+### Usage
+
+```python
+class NN_Sigmoid:
+    """
+    Simple NN for binary classification using Sigmoid function.
+    Fully connected layers with ReLU activation.
+    """
+
+    def __init__(
+        self, hiddenLayers, numFeatures, numLabels, learning_rate, 
+        cross_entropy_weight = 1,
+        optimizer = "GD"
+    )
+         """
+        Constructor: Build network
+
+        "hiddenLayers" contains the structure of the network to be trained:
+            list with number of neurons per hidden layer.
+
+        "numFeatures" is the number of features
+
+        "numLabels" is the number of labels
+
+        "learning_rate" is the learning rate used for training
+
+        "cross_entropy_weight" tf.nn.weighted_cross_entropy_with_logits if != 1
+
+        "optimizer" method used to minimize cost. Values: "GD" (gradient descent, default) or "Adam"
+        """
+
+   def train(
+        self, numEpochs, trainX, trainY, 
+        valX=None, valY=None, val_epochs=None, val_patience=None
+    )
+        """
+        Train NN on features "trainX" an labels "trainY".
+
+        "numEpochs" is the number of training epochs.
+        
+        "valX" and "valY" is the validation set.
+
+        "val_epochs" is the number of epochs between each training evaluation.
+
+        "val_patience" is the number of times that the loss on the validation 
+        set can be larger than or equal to the previously smallest loss before 
+        network training stops. 
+        """
+   
+   def predict(self, testX, testY)
+         """
+        Predict based on "testX".
+        
+        evaluate based on "testY".
+        """
+```
+
+
