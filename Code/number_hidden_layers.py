@@ -28,7 +28,7 @@ trainX, testX, trainY, testY = train_test_split(
 
 
 # Hidden layers
-numHiddenLayers = [0,1,2,3,4,5,6] 
+numHiddenLayers = [0,1] 
 # number of features
 numFeatures = trainX.shape[1]
 # number of classes
@@ -49,9 +49,10 @@ for HL in numHiddenLayers:
 
 def mean_confidence_interval(data, confidence=0.95):
     a = 1.0 * np.array(data)
-    print(a)
     n = len(a)
     m, se = np.mean(a), scipy.stats.sem(a)
+    print(m)
+    print(se)
     h = se * scipy.stats.t.ppf((1 + confidence) / 2., n-1)
     return h, m
 

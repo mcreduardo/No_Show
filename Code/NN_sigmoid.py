@@ -72,14 +72,14 @@ class NN_Sigmoid:
         self._accuracy = tf.reduce_mean(tf.cast(self._correct_pred, tf.float32))
         # loss
         if cross_entropy_weight == 1:
-            self._cross_entropy = tf.nn.sigmoid_cross_entropy_with_logits(labels=self._yGold, logits=output_layer)
+            self._cross_entropy = tf.nn.sigmoid_cross_entropy_with_logits(labels=self._yGold, logits=self._output_layer)
         else:
             self._cross_entropy = tf.nn.weighted_cross_entropy_with_logits(
                 pos_weight = cross_entropy_weight,targets=self._yGold, logits=self._output_layer)
         self._cost = tf.reduce_mean(self._cross_entropy)
         if optimizer == "Adam":
             self._optimizer = tf.train.AdamOptimizer(learning_rate=learning_rate).minimize(self._cost)
-        elif optimizer == "sGD":
+        elif optimizer == "GD":
             self._optimizer = tf.train.GradientDescentOptimizer(learning_rate=learning_rate).minimize(self._cost)
         # --->>> implement optimizer != GD or Adam handler
 
