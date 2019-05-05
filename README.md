@@ -88,4 +88,7 @@ class NN_Sigmoid:
         """
 ```
 
+### Results
+
+![ROCPR figure](Results/ROCPR.png)
 
