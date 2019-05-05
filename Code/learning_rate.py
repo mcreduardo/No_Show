@@ -7,7 +7,6 @@
 
 import numpy as np
 import pandas as pd # load csv data
-import numpy as np
 from sklearn.model_selection import train_test_split # split into training and test set
 import dataset as ds # load dataset
 import matplotlib.pyplot as plt # plotting
@@ -70,7 +69,7 @@ for idx, rate in enumerate(learning_rates):
     plt.plot(range(len(loss[idx])),loss[idx], label='lr = '+str(rate))
 #plt.title('Cost')
 plt.ylabel('Weighted Cross Entropy')
-plt.xlabel('Epoch')
+plt.xlabel('Number Hidden Layers')
 plt.ylim(top=1.2)
 
 
@@ -79,7 +78,7 @@ for idx, rate in enumerate(learning_rates):
     plt.plot(range(len(f1[idx])),f1[idx], label='lr = '+str(rate))
 #plt.title('F1-Score')
 plt.ylabel('F1-Score')
-plt.xlabel('Epoch')
+plt.xlabel('Number Hidden Layers')
 plt.ylim(bottom=0.3)
 plt.gca().legend()
 

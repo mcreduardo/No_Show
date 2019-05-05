@@ -7,7 +7,6 @@
 
 import numpy as np
 import pandas as pd # load csv data
-import numpy as np
 from sklearn.model_selection import train_test_split # split into training and test set
 import dataset as ds # load dataset
 import matplotlib.pyplot as plt # plotting

@@ -1,0 +1,2941 @@
+
+WARNING: The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+If you depend on functionality not listed there, please file an issue.
+
+TS: Epoch:     0	Loss: 1.102	Acc: 48.59%	F1: 0.348
+VS: Epoch:     0	Loss: 1.102	Acc: 48.50%	F1: 0.347
+
+TS: Epoch:    25	Loss: 1.003	Acc: 66.67%	F1: 0.426
+VS: Epoch:    25	Loss: 1.007	Acc: 66.50%	F1: 0.424
+
+TS: Epoch:    50	Loss: 1.000	Acc: 68.19%	F1: 0.429
+VS: Epoch:    50	Loss: 1.004	Acc: 68.05%	F1: 0.425
+
+TS: Epoch:    75	Loss: 1.000	Acc: 68.48%	F1: 0.429
+VS: Epoch:    75	Loss: 1.004	Acc: 68.34%	F1: 0.425
+
+TS: Epoch:   100	Loss: 1.000	Acc: 68.43%	F1: 0.429
+VS: Epoch:   100	Loss: 1.004	Acc: 68.34%	F1: 0.425
+
+TS: Epoch:   125	Loss: 1.000	Acc: 68.41%	F1: 0.429
+VS: Epoch:   125	Loss: 1.004	Acc: 68.33%	F1: 0.426
+
+TS: Epoch:   150	Loss: 1.000	Acc: 68.41%	F1: 0.429
+VS: Epoch:   150	Loss: 1.004	Acc: 68.32%	F1: 0.425
+
+TS: Epoch:   175	Loss: 1.000	Acc: 68.41%	F1: 0.429
+VS: Epoch:   175	Loss: 1.004	Acc: 68.32%	F1: 0.425
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   175	Loss: 1.004	Acc: 68.32%	F1: 0.425
+
+Test Set:	Loss: 1.002	Acc: 67.73%	F1: 0.420
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.104	Acc: 53.72%	F1: 0.336
+VS: Epoch:     0	Loss: 1.106	Acc: 54.01%	F1: 0.335
+
+TS: Epoch:    25	Loss: 1.003	Acc: 69.52%	F1: 0.427
+VS: Epoch:    25	Loss: 1.001	Acc: 69.94%	F1: 0.433
+
+TS: Epoch:    50	Loss: 1.002	Acc: 67.72%	F1: 0.426
+VS: Epoch:    50	Loss: 0.999	Acc: 68.15%	F1: 0.431
+
+TS: Epoch:    75	Loss: 1.001	Acc: 68.31%	F1: 0.427
+VS: Epoch:    75	Loss: 0.999	Acc: 68.76%	F1: 0.432
+
+TS: Epoch:   100	Loss: 1.001	Acc: 68.24%	F1: 0.426
+VS: Epoch:   100	Loss: 0.999	Acc: 68.73%	F1: 0.432
+
+TS: Epoch:   125	Loss: 1.001	Acc: 68.24%	F1: 0.426
+VS: Epoch:   125	Loss: 0.999	Acc: 68.73%	F1: 0.432
+
+TS: Epoch:   150	Loss: 1.001	Acc: 68.25%	F1: 0.426
+VS: Epoch:   150	Loss: 0.999	Acc: 68.74%	F1: 0.432
+
+TS: Epoch:   175	Loss: 1.001	Acc: 68.25%	F1: 0.426
+VS: Epoch:   175	Loss: 0.999	Acc: 68.73%	F1: 0.432
+
+TS: Epoch:   200	Loss: 1.001	Acc: 68.25%	F1: 0.426
+VS: Epoch:   200	Loss: 0.999	Acc: 68.73%	F1: 0.432
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   200	Loss: 0.999	Acc: 68.73%	F1: 0.432
+
+Test Set:	Loss: 0.995	Acc: 68.78%	F1: 0.433
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.191	Acc: 53.65%	F1: 0.210
+VS: Epoch:     0	Loss: 1.189	Acc: 53.43%	F1: 0.208
+
+TS: Epoch:    25	Loss: 1.002	Acc: 68.97%	F1: 0.427
+VS: Epoch:    25	Loss: 1.013	Acc: 68.64%	F1: 0.420
+
+TS: Epoch:    50	Loss: 1.000	Acc: 68.43%	F1: 0.428
+VS: Epoch:    50	Loss: 1.012	Acc: 68.11%	F1: 0.420
+
+TS: Epoch:    75	Loss: 1.000	Acc: 68.06%	F1: 0.427
+VS: Epoch:    75	Loss: 1.011	Acc: 67.73%	F1: 0.420
+
+TS: Epoch:   100	Loss: 1.000	Acc: 68.34%	F1: 0.427
+VS: Epoch:   100	Loss: 1.011	Acc: 68.10%	F1: 0.421
+
+TS: Epoch:   125	Loss: 1.000	Acc: 68.27%	F1: 0.427
+VS: Epoch:   125	Loss: 1.011	Acc: 68.03%	F1: 0.421
+
+TS: Epoch:   150	Loss: 1.000	Acc: 68.28%	F1: 0.427
+VS: Epoch:   150	Loss: 1.011	Acc: 68.05%	F1: 0.421
+
+TS: Epoch:   175	Loss: 1.000	Acc: 68.28%	F1: 0.427
+VS: Epoch:   175	Loss: 1.011	Acc: 68.05%	F1: 0.421
+
+TS: Epoch:   200	Loss: 1.000	Acc: 68.28%	F1: 0.427
+VS: Epoch:   200	Loss: 1.011	Acc: 68.05%	F1: 0.421
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   200	Loss: 1.011	Acc: 68.05%	F1: 0.421
+
+Test Set:	Loss: 0.992	Acc: 68.70%	F1: 0.438
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.121	Acc: 53.99%	F1: 0.316
+VS: Epoch:     0	Loss: 1.117	Acc: 54.68%	F1: 0.326
+
+TS: Epoch:    25	Loss: 1.005	Acc: 68.40%	F1: 0.426
+VS: Epoch:    25	Loss: 1.002	Acc: 68.69%	F1: 0.429
+
+TS: Epoch:    50	Loss: 1.001	Acc: 67.91%	F1: 0.426
+VS: Epoch:    50	Loss: 1.000	Acc: 68.32%	F1: 0.430
+
+TS: Epoch:    75	Loss: 1.001	Acc: 68.27%	F1: 0.426
+VS: Epoch:    75	Loss: 1.000	Acc: 68.75%	F1: 0.432
+
+TS: Epoch:   100	Loss: 1.001	Acc: 68.26%	F1: 0.426
+VS: Epoch:   100	Loss: 1.000	Acc: 68.72%	F1: 0.432
+
+TS: Epoch:   125	Loss: 1.001	Acc: 68.26%	F1: 0.426
+VS: Epoch:   125	Loss: 1.000	Acc: 68.73%	F1: 0.432
+
+TS: Epoch:   150	Loss: 1.001	Acc: 68.27%	F1: 0.426
+VS: Epoch:   150	Loss: 1.000	Acc: 68.74%	F1: 0.432
+
+TS: Epoch:   175	Loss: 1.001	Acc: 68.27%	F1: 0.426
+VS: Epoch:   175	Loss: 1.000	Acc: 68.72%	F1: 0.432
+
+TS: Epoch:   200	Loss: 1.001	Acc: 68.27%	F1: 0.426
+VS: Epoch:   200	Loss: 1.000	Acc: 68.72%	F1: 0.431
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   200	Loss: 1.000	Acc: 68.72%	F1: 0.431
+
+Test Set:	Loss: 0.998	Acc: 68.83%	F1: 0.428
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.078	Acc: 59.07%	F1: 0.355
+VS: Epoch:     0	Loss: 1.078	Acc: 59.19%	F1: 0.354
+
+TS: Epoch:    25	Loss: 1.002	Acc: 68.64%	F1: 0.431
+VS: Epoch:    25	Loss: 1.004	Acc: 68.66%	F1: 0.424
+
+TS: Epoch:    50	Loss: 1.001	Acc: 68.69%	F1: 0.429
+VS: Epoch:    50	Loss: 1.001	Acc: 68.78%	F1: 0.423
+
+TS: Epoch:    75	Loss: 1.000	Acc: 68.38%	F1: 0.429
+VS: Epoch:    75	Loss: 1.001	Acc: 68.42%	F1: 0.423
+
+TS: Epoch:   100	Loss: 1.000	Acc: 68.40%	F1: 0.429
+VS: Epoch:   100	Loss: 1.001	Acc: 68.43%	F1: 0.423
+
+TS: Epoch:   125	Loss: 1.000	Acc: 68.39%	F1: 0.429
+VS: Epoch:   125	Loss: 1.001	Acc: 68.43%	F1: 0.423
+
+TS: Epoch:   150	Loss: 1.000	Acc: 68.39%	F1: 0.429
+VS: Epoch:   150	Loss: 1.001	Acc: 68.43%	F1: 0.423
+
+TS: Epoch:   175	Loss: 1.000	Acc: 68.38%	F1: 0.429
+VS: Epoch:   175	Loss: 1.001	Acc: 68.42%	F1: 0.423
+
+TS: Epoch:   200	Loss: 1.000	Acc: 68.39%	F1: 0.429
+VS: Epoch:   200	Loss: 1.001	Acc: 68.43%	F1: 0.423
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   200	Loss: 1.001	Acc: 68.43%	F1: 0.423
+
+Test Set:	Loss: 1.001	Acc: 68.17%	F1: 0.426
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.121	Acc: 54.39%	F1: 0.324
+VS: Epoch:     0	Loss: 1.122	Acc: 54.13%	F1: 0.323
+
+TS: Epoch:    25	Loss: 1.002	Acc: 68.45%	F1: 0.426
+VS: Epoch:    25	Loss: 1.005	Acc: 68.10%	F1: 0.420
+
+TS: Epoch:    50	Loss: 1.000	Acc: 68.65%	F1: 0.427
+VS: Epoch:    50	Loss: 1.003	Acc: 68.46%	F1: 0.423
+
+TS: Epoch:    75	Loss: 1.000	Acc: 68.30%	F1: 0.428
+VS: Epoch:    75	Loss: 1.003	Acc: 68.09%	F1: 0.424
+
+TS: Epoch:   100	Loss: 1.000	Acc: 68.38%	F1: 0.428
+VS: Epoch:   100	Loss: 1.003	Acc: 68.18%	F1: 0.424
+
+TS: Epoch:   125	Loss: 1.000	Acc: 68.39%	F1: 0.428
+VS: Epoch:   125	Loss: 1.003	Acc: 68.18%	F1: 0.424
+
+TS: Epoch:   150	Loss: 1.000	Acc: 68.38%	F1: 0.428
+VS: Epoch:   150	Loss: 1.003	Acc: 68.18%	F1: 0.424
+
+TS: Epoch:   175	Loss: 1.000	Acc: 68.38%	F1: 0.428
+VS: Epoch:   175	Loss: 1.003	Acc: 68.18%	F1: 0.424
+
+TS: Epoch:   200	Loss: 1.000	Acc: 68.38%	F1: 0.428
+VS: Epoch:   200	Loss: 1.003	Acc: 68.17%	F1: 0.424
+
+TS: Epoch:   225	Loss: 1.000	Acc: 68.38%	F1: 0.428
+VS: Epoch:   225	Loss: 1.003	Acc: 68.16%	F1: 0.424
+
+TS: Epoch:   250	Loss: 1.000	Acc: 68.38%	F1: 0.428
+VS: Epoch:   250	Loss: 1.003	Acc: 68.17%	F1: 0.424
+
+TS: Epoch:   275	Loss: 1.000	Acc: 68.38%	F1: 0.428
+VS: Epoch:   275	Loss: 1.003	Acc: 68.17%	F1: 0.424
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   275	Loss: 1.003	Acc: 68.17%	F1: 0.424
+
+Test Set:	Loss: 0.999	Acc: 68.64%	F1: 0.432
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.176	Acc: 26.92%	F1: 0.333
+VS: Epoch:     0	Loss: 1.180	Acc: 26.74%	F1: 0.332
+
+TS: Epoch:    25	Loss: 1.009	Acc: 72.20%	F1: 0.424
+VS: Epoch:    25	Loss: 1.011	Acc: 72.28%	F1: 0.428
+
+TS: Epoch:    50	Loss: 1.000	Acc: 66.81%	F1: 0.425
+VS: Epoch:    50	Loss: 1.003	Acc: 66.63%	F1: 0.425
+
+TS: Epoch:    75	Loss: 0.999	Acc: 68.11%	F1: 0.426
+VS: Epoch:    75	Loss: 1.002	Acc: 67.95%	F1: 0.426
+
+TS: Epoch:   100	Loss: 0.999	Acc: 68.34%	F1: 0.427
+VS: Epoch:   100	Loss: 1.002	Acc: 68.20%	F1: 0.426
+
+TS: Epoch:   125	Loss: 0.999	Acc: 68.27%	F1: 0.426
+VS: Epoch:   125	Loss: 1.002	Acc: 68.12%	F1: 0.426
+
+TS: Epoch:   150	Loss: 0.999	Acc: 68.24%	F1: 0.426
+VS: Epoch:   150	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+TS: Epoch:   175	Loss: 0.999	Acc: 68.24%	F1: 0.426
+VS: Epoch:   175	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+TS: Epoch:   200	Loss: 0.999	Acc: 68.24%	F1: 0.426
+VS: Epoch:   200	Loss: 1.002	Acc: 68.10%	F1: 0.426
+
+TS: Epoch:   225	Loss: 0.999	Acc: 68.24%	F1: 0.427
+VS: Epoch:   225	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+TS: Epoch:   250	Loss: 0.999	Acc: 68.24%	F1: 0.427
+VS: Epoch:   250	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+TS: Epoch:   275	Loss: 0.999	Acc: 68.24%	F1: 0.427
+VS: Epoch:   275	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+TS: Epoch:   300	Loss: 0.999	Acc: 68.24%	F1: 0.427
+VS: Epoch:   300	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+TS: Epoch:   325	Loss: 0.999	Acc: 68.24%	F1: 0.427
+VS: Epoch:   325	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+TS: Epoch:   350	Loss: 0.999	Acc: 68.24%	F1: 0.427
+VS: Epoch:   350	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+TS: Epoch:   375	Loss: 0.999	Acc: 68.24%	F1: 0.427
+VS: Epoch:   375	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+TS: Epoch:   400	Loss: 0.999	Acc: 68.24%	F1: 0.427
+VS: Epoch:   400	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+TS: Epoch:   425	Loss: 0.999	Acc: 68.24%	F1: 0.427
+VS: Epoch:   425	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+TS: Epoch:   450	Loss: 0.999	Acc: 68.24%	F1: 0.427
+VS: Epoch:   450	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   450	Loss: 1.002	Acc: 68.09%	F1: 0.426
+
+Test Set:	Loss: 1.007	Acc: 68.16%	F1: 0.428
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.084	Acc: 68.07%	F1: 0.341
+VS: Epoch:     0	Loss: 1.083	Acc: 67.86%	F1: 0.343
+
+TS: Epoch:    25	Loss: 1.002	Acc: 69.53%	F1: 0.425
+VS: Epoch:    25	Loss: 1.006	Acc: 69.49%	F1: 0.425
+
+TS: Epoch:    50	Loss: 1.000	Acc: 69.02%	F1: 0.427
+VS: Epoch:    50	Loss: 1.004	Acc: 68.85%	F1: 0.427
+
+TS: Epoch:    75	Loss: 1.000	Acc: 68.36%	F1: 0.427
+VS: Epoch:    75	Loss: 1.003	Acc: 68.22%	F1: 0.428
+
+TS: Epoch:   100	Loss: 1.000	Acc: 68.40%	F1: 0.427
+VS: Epoch:   100	Loss: 1.003	Acc: 68.31%	F1: 0.429
+
+TS: Epoch:   125	Loss: 1.000	Acc: 68.38%	F1: 0.428
+VS: Epoch:   125	Loss: 1.003	Acc: 68.27%	F1: 0.429
+
+TS: Epoch:   150	Loss: 1.000	Acc: 68.40%	F1: 0.427
+VS: Epoch:   150	Loss: 1.003	Acc: 68.28%	F1: 0.429
+
+TS: Epoch:   175	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   175	Loss: 1.003	Acc: 68.27%	F1: 0.429
+
+TS: Epoch:   200	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   200	Loss: 1.003	Acc: 68.28%	F1: 0.429
+
+TS: Epoch:   225	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   225	Loss: 1.003	Acc: 68.30%	F1: 0.429
+
+TS: Epoch:   250	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   250	Loss: 1.003	Acc: 68.30%	F1: 0.429
+
+TS: Epoch:   275	Loss: 1.000	Acc: 68.38%	F1: 0.427
+VS: Epoch:   275	Loss: 1.003	Acc: 68.31%	F1: 0.429
+
+TS: Epoch:   300	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   300	Loss: 1.003	Acc: 68.31%	F1: 0.429
+
+TS: Epoch:   325	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   325	Loss: 1.003	Acc: 68.30%	F1: 0.429
+
+TS: Epoch:   350	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   350	Loss: 1.003	Acc: 68.29%	F1: 0.429
+
+TS: Epoch:   375	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   375	Loss: 1.003	Acc: 68.29%	F1: 0.429
+
+TS: Epoch:   400	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   400	Loss: 1.003	Acc: 68.29%	F1: 0.429
+
+TS: Epoch:   425	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   425	Loss: 1.003	Acc: 68.29%	F1: 0.429
+
+TS: Epoch:   450	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   450	Loss: 1.003	Acc: 68.29%	F1: 0.429
+
+TS: Epoch:   475	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   475	Loss: 1.003	Acc: 68.29%	F1: 0.429
+
+TS: Epoch:   500	Loss: 1.000	Acc: 68.39%	F1: 0.427
+VS: Epoch:   500	Loss: 1.003	Acc: 68.29%	F1: 0.429
+
+Final VS: Epoch:   500	Loss: 1.003	Acc: 68.29%	F1: 0.429
+
+Test Set:	Loss: 1.003	Acc: 68.18%	F1: 0.426
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.183	Acc: 41.90%	F1: 0.247
+VS: Epoch:     0	Loss: 1.186	Acc: 42.00%	F1: 0.242
+
+TS: Epoch:    25	Loss: 1.003	Acc: 68.45%	F1: 0.426
+VS: Epoch:    25	Loss: 1.005	Acc: 68.20%	F1: 0.425
+
+TS: Epoch:    50	Loss: 1.000	Acc: 68.39%	F1: 0.429
+VS: Epoch:    50	Loss: 1.001	Acc: 68.30%	F1: 0.429
+
+TS: Epoch:    75	Loss: 0.999	Acc: 68.34%	F1: 0.428
+VS: Epoch:    75	Loss: 1.001	Acc: 68.25%	F1: 0.428
+
+TS: Epoch:   100	Loss: 0.999	Acc: 68.39%	F1: 0.428
+VS: Epoch:   100	Loss: 1.001	Acc: 68.24%	F1: 0.428
+
+TS: Epoch:   125	Loss: 0.999	Acc: 68.39%	F1: 0.428
+VS: Epoch:   125	Loss: 1.001	Acc: 68.23%	F1: 0.428
+
+TS: Epoch:   150	Loss: 0.999	Acc: 68.39%	F1: 0.428
+VS: Epoch:   150	Loss: 1.001	Acc: 68.24%	F1: 0.428
+
+TS: Epoch:   175	Loss: 0.999	Acc: 68.39%	F1: 0.428
+VS: Epoch:   175	Loss: 1.001	Acc: 68.23%	F1: 0.428
+
+TS: Epoch:   200	Loss: 0.999	Acc: 68.39%	F1: 0.428
+VS: Epoch:   200	Loss: 1.001	Acc: 68.23%	F1: 0.428
+
+TS: Epoch:   225	Loss: 0.999	Acc: 68.39%	F1: 0.428
+VS: Epoch:   225	Loss: 1.001	Acc: 68.23%	F1: 0.428
+
+TS: Epoch:   250	Loss: 0.999	Acc: 68.39%	F1: 0.428
+VS: Epoch:   250	Loss: 1.001	Acc: 68.23%	F1: 0.428
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   250	Loss: 1.001	Acc: 68.23%	F1: 0.428
+
+Test Set:	Loss: 1.009	Acc: 67.86%	F1: 0.421
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.131	Acc: 58.65%	F1: 0.267
+VS: Epoch:     0	Loss: 1.131	Acc: 58.58%	F1: 0.264
+
+TS: Epoch:    25	Loss: 1.007	Acc: 67.92%	F1: 0.429
+VS: Epoch:    25	Loss: 1.000	Acc: 67.98%	F1: 0.430
+
+TS: Epoch:    50	Loss: 1.002	Acc: 68.00%	F1: 0.425
+VS: Epoch:    50	Loss: 0.997	Acc: 68.19%	F1: 0.429
+
+TS: Epoch:    75	Loss: 1.001	Acc: 68.40%	F1: 0.428
+VS: Epoch:    75	Loss: 0.996	Acc: 68.51%	F1: 0.431
+
+TS: Epoch:   100	Loss: 1.001	Acc: 68.37%	F1: 0.428
+VS: Epoch:   100	Loss: 0.996	Acc: 68.48%	F1: 0.430
+
+TS: Epoch:   125	Loss: 1.001	Acc: 68.38%	F1: 0.428
+VS: Epoch:   125	Loss: 0.996	Acc: 68.49%	F1: 0.430
+
+TS: Epoch:   150	Loss: 1.001	Acc: 68.39%	F1: 0.428
+VS: Epoch:   150	Loss: 0.996	Acc: 68.47%	F1: 0.430
+
+TS: Epoch:   175	Loss: 1.001	Acc: 68.39%	F1: 0.428
+VS: Epoch:   175	Loss: 0.996	Acc: 68.47%	F1: 0.430
+
+TS: Epoch:   200	Loss: 1.001	Acc: 68.39%	F1: 0.428
+VS: Epoch:   200	Loss: 0.996	Acc: 68.47%	F1: 0.430
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   200	Loss: 0.996	Acc: 68.47%	F1: 0.430
+
+Test Set:	Loss: 1.001	Acc: 68.34%	F1: 0.424
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.061	Acc: 53.17%	F1: 0.385
+VS: Epoch:     0	Loss: 1.063	Acc: 52.83%	F1: 0.385
+
+TS: Epoch:    25	Loss: 0.981	Acc: 65.87%	F1: 0.433
+VS: Epoch:    25	Loss: 0.983	Acc: 65.67%	F1: 0.432
+
+TS: Epoch:    50	Loss: 0.976	Acc: 67.05%	F1: 0.436
+VS: Epoch:    50	Loss: 0.978	Acc: 66.89%	F1: 0.436
+
+TS: Epoch:    75	Loss: 0.973	Acc: 67.16%	F1: 0.439
+VS: Epoch:    75	Loss: 0.976	Acc: 67.10%	F1: 0.437
+
+TS: Epoch:   100	Loss: 0.971	Acc: 67.16%	F1: 0.440
+VS: Epoch:   100	Loss: 0.975	Acc: 67.04%	F1: 0.436
+
+TS: Epoch:   125	Loss: 0.969	Acc: 67.26%	F1: 0.441
+VS: Epoch:   125	Loss: 0.973	Acc: 67.00%	F1: 0.436
+
+TS: Epoch:   150	Loss: 0.969	Acc: 67.25%	F1: 0.441
+VS: Epoch:   150	Loss: 0.973	Acc: 66.98%	F1: 0.435
+
+TS: Epoch:   175	Loss: 0.968	Acc: 67.60%	F1: 0.441
+VS: Epoch:   175	Loss: 0.972	Acc: 67.34%	F1: 0.437
+
+TS: Epoch:   200	Loss: 0.968	Acc: 67.49%	F1: 0.442
+VS: Epoch:   200	Loss: 0.972	Acc: 67.21%	F1: 0.437
+
+TS: Epoch:   225	Loss: 0.967	Acc: 66.21%	F1: 0.441
+VS: Epoch:   225	Loss: 0.971	Acc: 65.99%	F1: 0.437
+
+TS: Epoch:   250	Loss: 0.967	Acc: 66.89%	F1: 0.443
+VS: Epoch:   250	Loss: 0.971	Acc: 66.71%	F1: 0.439
+
+TS: Epoch:   275	Loss: 0.966	Acc: 67.52%	F1: 0.444
+VS: Epoch:   275	Loss: 0.970	Acc: 67.25%	F1: 0.440
+
+TS: Epoch:   300	Loss: 0.966	Acc: 66.46%	F1: 0.443
+VS: Epoch:   300	Loss: 0.969	Acc: 66.15%	F1: 0.439
+
+TS: Epoch:   325	Loss: 0.966	Acc: 67.71%	F1: 0.445
+VS: Epoch:   325	Loss: 0.970	Acc: 67.38%	F1: 0.439
+
+TS: Epoch:   350	Loss: 0.966	Acc: 67.07%	F1: 0.444
+VS: Epoch:   350	Loss: 0.969	Acc: 66.79%	F1: 0.440
+
+TS: Epoch:   375	Loss: 0.966	Acc: 66.02%	F1: 0.444
+VS: Epoch:   375	Loss: 0.969	Acc: 65.64%	F1: 0.439
+
+TS: Epoch:   400	Loss: 0.965	Acc: 67.05%	F1: 0.445
+VS: Epoch:   400	Loss: 0.969	Acc: 66.69%	F1: 0.440
+
+TS: Epoch:   425	Loss: 0.965	Acc: 66.73%	F1: 0.445
+VS: Epoch:   425	Loss: 0.968	Acc: 66.44%	F1: 0.442
+
+TS: Epoch:   450	Loss: 0.965	Acc: 67.02%	F1: 0.446
+VS: Epoch:   450	Loss: 0.968	Acc: 66.60%	F1: 0.441
+
+TS: Epoch:   475	Loss: 0.965	Acc: 65.80%	F1: 0.444
+VS: Epoch:   475	Loss: 0.968	Acc: 65.40%	F1: 0.441
+
+TS: Epoch:   500	Loss: 0.965	Acc: 65.37%	F1: 0.444
+VS: Epoch:   500	Loss: 0.968	Acc: 64.99%	F1: 0.440
+
+Final VS: Epoch:   500	Loss: 0.968	Acc: 64.99%	F1: 0.440
+
+Test Set:	Loss: 0.965	Acc: 65.51%	F1: 0.444
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.085	Acc: 38.18%	F1: 0.347
+VS: Epoch:     0	Loss: 1.085	Acc: 37.95%	F1: 0.344
+
+TS: Epoch:    25	Loss: 0.982	Acc: 65.81%	F1: 0.433
+VS: Epoch:    25	Loss: 0.988	Acc: 65.63%	F1: 0.427
+
+TS: Epoch:    50	Loss: 0.977	Acc: 66.84%	F1: 0.438
+VS: Epoch:    50	Loss: 0.983	Acc: 66.66%	F1: 0.430
+
+TS: Epoch:    75	Loss: 0.974	Acc: 66.81%	F1: 0.439
+VS: Epoch:    75	Loss: 0.981	Acc: 66.70%	F1: 0.432
+
+TS: Epoch:   100	Loss: 0.973	Acc: 67.82%	F1: 0.441
+VS: Epoch:   100	Loss: 0.981	Acc: 67.61%	F1: 0.433
+
+TS: Epoch:   125	Loss: 0.971	Acc: 66.31%	F1: 0.440
+VS: Epoch:   125	Loss: 0.978	Acc: 66.22%	F1: 0.433
+
+TS: Epoch:   150	Loss: 0.970	Acc: 67.09%	F1: 0.442
+VS: Epoch:   150	Loss: 0.977	Acc: 67.11%	F1: 0.436
+
+TS: Epoch:   175	Loss: 0.970	Acc: 66.63%	F1: 0.441
+VS: Epoch:   175	Loss: 0.976	Acc: 66.63%	F1: 0.435
+
+TS: Epoch:   200	Loss: 0.969	Acc: 67.19%	F1: 0.442
+VS: Epoch:   200	Loss: 0.976	Acc: 67.15%	F1: 0.435
+
+TS: Epoch:   225	Loss: 0.969	Acc: 67.15%	F1: 0.442
+VS: Epoch:   225	Loss: 0.976	Acc: 67.12%	F1: 0.436
+
+TS: Epoch:   250	Loss: 0.968	Acc: 66.54%	F1: 0.441
+VS: Epoch:   250	Loss: 0.976	Acc: 66.47%	F1: 0.435
+
+TS: Epoch:   275	Loss: 0.968	Acc: 67.45%	F1: 0.443
+VS: Epoch:   275	Loss: 0.976	Acc: 67.36%	F1: 0.436
+
+TS: Epoch:   300	Loss: 0.968	Acc: 66.22%	F1: 0.441
+VS: Epoch:   300	Loss: 0.975	Acc: 66.20%	F1: 0.436
+
+TS: Epoch:   325	Loss: 0.968	Acc: 65.20%	F1: 0.441
+VS: Epoch:   325	Loss: 0.976	Acc: 65.28%	F1: 0.437
+
+TS: Epoch:   350	Loss: 0.967	Acc: 66.33%	F1: 0.442
+VS: Epoch:   350	Loss: 0.975	Acc: 66.34%	F1: 0.436
+
+TS: Epoch:   375	Loss: 0.967	Acc: 68.36%	F1: 0.445
+VS: Epoch:   375	Loss: 0.976	Acc: 68.19%	F1: 0.437
+
+TS: Epoch:   400	Loss: 0.967	Acc: 65.70%	F1: 0.442
+VS: Epoch:   400	Loss: 0.975	Acc: 65.71%	F1: 0.436
+
+TS: Epoch:   425	Loss: 0.966	Acc: 65.79%	F1: 0.442
+VS: Epoch:   425	Loss: 0.975	Acc: 65.80%	F1: 0.436
+
+TS: Epoch:   450	Loss: 0.966	Acc: 66.88%	F1: 0.443
+VS: Epoch:   450	Loss: 0.974	Acc: 66.83%	F1: 0.436
+
+TS: Epoch:   475	Loss: 0.967	Acc: 69.21%	F1: 0.445
+VS: Epoch:   475	Loss: 0.976	Acc: 69.09%	F1: 0.438
+
+TS: Epoch:   500	Loss: 0.966	Acc: 67.71%	F1: 0.444
+VS: Epoch:   500	Loss: 0.975	Acc: 67.55%	F1: 0.435
+
+Final VS: Epoch:   500	Loss: 0.975	Acc: 67.55%	F1: 0.435
+
+Test Set:	Loss: 0.975	Acc: 67.29%	F1: 0.440
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.093	Acc: 48.33%	F1: 0.332
+VS: Epoch:     0	Loss: 1.092	Acc: 48.33%	F1: 0.331
+
+TS: Epoch:    25	Loss: 0.993	Acc: 66.84%	F1: 0.432
+VS: Epoch:    25	Loss: 0.999	Acc: 66.80%	F1: 0.431
+
+TS: Epoch:    50	Loss: 0.979	Acc: 67.50%	F1: 0.435
+VS: Epoch:    50	Loss: 0.984	Acc: 67.21%	F1: 0.432
+
+TS: Epoch:    75	Loss: 0.975	Acc: 67.10%	F1: 0.438
+VS: Epoch:    75	Loss: 0.981	Acc: 66.90%	F1: 0.436
+
+TS: Epoch:   100	Loss: 0.973	Acc: 67.27%	F1: 0.440
+VS: Epoch:   100	Loss: 0.980	Acc: 67.04%	F1: 0.437
+
+TS: Epoch:   125	Loss: 0.972	Acc: 67.08%	F1: 0.441
+VS: Epoch:   125	Loss: 0.979	Acc: 66.72%	F1: 0.437
+
+TS: Epoch:   150	Loss: 0.970	Acc: 67.41%	F1: 0.442
+VS: Epoch:   150	Loss: 0.978	Acc: 66.96%	F1: 0.437
+
+TS: Epoch:   175	Loss: 0.969	Acc: 67.29%	F1: 0.442
+VS: Epoch:   175	Loss: 0.978	Acc: 66.81%	F1: 0.438
+
+TS: Epoch:   200	Loss: 0.968	Acc: 67.25%	F1: 0.443
+VS: Epoch:   200	Loss: 0.977	Acc: 66.83%	F1: 0.438
+
+TS: Epoch:   225	Loss: 0.968	Acc: 67.57%	F1: 0.443
+VS: Epoch:   225	Loss: 0.976	Acc: 67.10%	F1: 0.438
+
+TS: Epoch:   250	Loss: 0.967	Acc: 67.13%	F1: 0.443
+VS: Epoch:   250	Loss: 0.976	Acc: 66.79%	F1: 0.440
+
+TS: Epoch:   275	Loss: 0.967	Acc: 66.29%	F1: 0.443
+VS: Epoch:   275	Loss: 0.976	Acc: 65.85%	F1: 0.438
+
+TS: Epoch:   300	Loss: 0.966	Acc: 65.74%	F1: 0.442
+VS: Epoch:   300	Loss: 0.976	Acc: 65.35%	F1: 0.438
+
+TS: Epoch:   325	Loss: 0.966	Acc: 67.07%	F1: 0.443
+VS: Epoch:   325	Loss: 0.977	Acc: 66.82%	F1: 0.441
+
+TS: Epoch:   350	Loss: 0.966	Acc: 65.84%	F1: 0.443
+VS: Epoch:   350	Loss: 0.977	Acc: 65.48%	F1: 0.438
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   350	Loss: 0.977	Acc: 65.48%	F1: 0.438
+
+Test Set:	Loss: 0.967	Acc: 65.78%	F1: 0.439
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.101	Acc: 61.15%	F1: 0.296
+VS: Epoch:     0	Loss: 1.102	Acc: 61.20%	F1: 0.292
+
+TS: Epoch:    25	Loss: 0.985	Acc: 66.39%	F1: 0.433
+VS: Epoch:    25	Loss: 0.990	Acc: 66.24%	F1: 0.430
+
+TS: Epoch:    50	Loss: 0.974	Acc: 66.54%	F1: 0.438
+VS: Epoch:    50	Loss: 0.978	Acc: 66.49%	F1: 0.436
+
+TS: Epoch:    75	Loss: 0.970	Acc: 66.51%	F1: 0.440
+VS: Epoch:    75	Loss: 0.976	Acc: 66.36%	F1: 0.437
+
+TS: Epoch:   100	Loss: 0.969	Acc: 67.10%	F1: 0.441
+VS: Epoch:   100	Loss: 0.976	Acc: 67.02%	F1: 0.437
+
+TS: Epoch:   125	Loss: 0.968	Acc: 66.43%	F1: 0.441
+VS: Epoch:   125	Loss: 0.975	Acc: 66.29%	F1: 0.437
+
+TS: Epoch:   150	Loss: 0.968	Acc: 65.95%	F1: 0.442
+VS: Epoch:   150	Loss: 0.975	Acc: 65.53%	F1: 0.434
+
+TS: Epoch:   175	Loss: 0.967	Acc: 65.95%	F1: 0.442
+VS: Epoch:   175	Loss: 0.975	Acc: 65.60%	F1: 0.434
+
+TS: Epoch:   200	Loss: 0.966	Acc: 65.79%	F1: 0.442
+VS: Epoch:   200	Loss: 0.975	Acc: 65.34%	F1: 0.433
+
+TS: Epoch:   225	Loss: 0.966	Acc: 65.94%	F1: 0.442
+VS: Epoch:   225	Loss: 0.975	Acc: 65.54%	F1: 0.434
+
+TS: Epoch:   250	Loss: 0.966	Acc: 67.03%	F1: 0.444
+VS: Epoch:   250	Loss: 0.975	Acc: 66.75%	F1: 0.438
+
+TS: Epoch:   275	Loss: 0.966	Acc: 65.87%	F1: 0.442
+VS: Epoch:   275	Loss: 0.974	Acc: 65.53%	F1: 0.436
+
+TS: Epoch:   300	Loss: 0.965	Acc: 66.45%	F1: 0.444
+VS: Epoch:   300	Loss: 0.974	Acc: 66.08%	F1: 0.436
+
+TS: Epoch:   325	Loss: 0.965	Acc: 67.18%	F1: 0.445
+VS: Epoch:   325	Loss: 0.974	Acc: 66.81%	F1: 0.438
+
+TS: Epoch:   350	Loss: 0.965	Acc: 65.88%	F1: 0.443
+VS: Epoch:   350	Loss: 0.974	Acc: 65.53%	F1: 0.436
+
+TS: Epoch:   375	Loss: 0.965	Acc: 66.12%	F1: 0.444
+VS: Epoch:   375	Loss: 0.973	Acc: 65.83%	F1: 0.437
+
+TS: Epoch:   400	Loss: 0.965	Acc: 67.59%	F1: 0.445
+VS: Epoch:   400	Loss: 0.974	Acc: 67.21%	F1: 0.439
+
+TS: Epoch:   425	Loss: 0.965	Acc: 67.15%	F1: 0.445
+VS: Epoch:   425	Loss: 0.974	Acc: 66.81%	F1: 0.438
+
+TS: Epoch:   450	Loss: 0.964	Acc: 66.51%	F1: 0.444
+VS: Epoch:   450	Loss: 0.973	Acc: 66.20%	F1: 0.438
+
+TS: Epoch:   475	Loss: 0.964	Acc: 65.99%	F1: 0.444
+VS: Epoch:   475	Loss: 0.973	Acc: 65.79%	F1: 0.438
+
+TS: Epoch:   500	Loss: 0.964	Acc: 67.09%	F1: 0.445
+VS: Epoch:   500	Loss: 0.974	Acc: 66.88%	F1: 0.440
+
+Final VS: Epoch:   500	Loss: 0.974	Acc: 66.88%	F1: 0.440
+
+Test Set:	Loss: 0.975	Acc: 66.49%	F1: 0.441
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.059	Acc: 75.99%	F1: 0.337
+VS: Epoch:     0	Loss: 1.059	Acc: 75.51%	F1: 0.333
+
+TS: Epoch:    25	Loss: 0.981	Acc: 65.23%	F1: 0.433
+VS: Epoch:    25	Loss: 0.983	Acc: 65.11%	F1: 0.435
+
+TS: Epoch:    50	Loss: 0.974	Acc: 66.89%	F1: 0.439
+VS: Epoch:    50	Loss: 0.976	Acc: 66.63%	F1: 0.437
+
+TS: Epoch:    75	Loss: 0.972	Acc: 66.72%	F1: 0.440
+VS: Epoch:    75	Loss: 0.975	Acc: 66.52%	F1: 0.439
+
+TS: Epoch:   100	Loss: 0.971	Acc: 65.82%	F1: 0.440
+VS: Epoch:   100	Loss: 0.975	Acc: 65.57%	F1: 0.438
+
+TS: Epoch:   125	Loss: 0.970	Acc: 66.71%	F1: 0.441
+VS: Epoch:   125	Loss: 0.973	Acc: 66.46%	F1: 0.440
+
+TS: Epoch:   150	Loss: 0.970	Acc: 67.98%	F1: 0.442
+VS: Epoch:   150	Loss: 0.973	Acc: 67.66%	F1: 0.439
+
+TS: Epoch:   175	Loss: 0.968	Acc: 67.06%	F1: 0.443
+VS: Epoch:   175	Loss: 0.972	Acc: 66.84%	F1: 0.441
+
+TS: Epoch:   200	Loss: 0.968	Acc: 66.67%	F1: 0.442
+VS: Epoch:   200	Loss: 0.972	Acc: 66.40%	F1: 0.441
+
+TS: Epoch:   225	Loss: 0.967	Acc: 66.45%	F1: 0.442
+VS: Epoch:   225	Loss: 0.972	Acc: 66.11%	F1: 0.440
+
+TS: Epoch:   250	Loss: 0.967	Acc: 65.91%	F1: 0.441
+VS: Epoch:   250	Loss: 0.972	Acc: 65.47%	F1: 0.438
+
+TS: Epoch:   275	Loss: 0.967	Acc: 66.66%	F1: 0.442
+VS: Epoch:   275	Loss: 0.971	Acc: 66.36%	F1: 0.440
+
+TS: Epoch:   300	Loss: 0.967	Acc: 65.41%	F1: 0.441
+VS: Epoch:   300	Loss: 0.972	Acc: 65.07%	F1: 0.438
+
+TS: Epoch:   325	Loss: 0.966	Acc: 67.49%	F1: 0.444
+VS: Epoch:   325	Loss: 0.970	Acc: 67.18%	F1: 0.442
+
+TS: Epoch:   350	Loss: 0.965	Acc: 67.21%	F1: 0.444
+VS: Epoch:   350	Loss: 0.970	Acc: 66.85%	F1: 0.442
+
+TS: Epoch:   375	Loss: 0.964	Acc: 67.13%	F1: 0.445
+VS: Epoch:   375	Loss: 0.970	Acc: 66.72%	F1: 0.442
+
+TS: Epoch:   400	Loss: 0.964	Acc: 67.78%	F1: 0.447
+VS: Epoch:   400	Loss: 0.970	Acc: 67.43%	F1: 0.444
+
+TS: Epoch:   425	Loss: 0.964	Acc: 66.01%	F1: 0.445
+VS: Epoch:   425	Loss: 0.970	Acc: 65.62%	F1: 0.442
+
+TS: Epoch:   450	Loss: 0.964	Acc: 65.86%	F1: 0.445
+VS: Epoch:   450	Loss: 0.970	Acc: 65.54%	F1: 0.443
+
+TS: Epoch:   475	Loss: 0.964	Acc: 68.60%	F1: 0.448
+VS: Epoch:   475	Loss: 0.970	Acc: 68.06%	F1: 0.443
+
+TS: Epoch:   500	Loss: 0.963	Acc: 66.47%	F1: 0.446
+VS: Epoch:   500	Loss: 0.970	Acc: 66.17%	F1: 0.443
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   500	Loss: 0.970	Acc: 66.17%	F1: 0.443
+
+Test Set:	Loss: 0.972	Acc: 66.15%	F1: 0.440
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.081	Acc: 60.25%	F1: 0.339
+VS: Epoch:     0	Loss: 1.082	Acc: 60.14%	F1: 0.341
+
+TS: Epoch:    25	Loss: 0.988	Acc: 64.21%	F1: 0.430
+VS: Epoch:    25	Loss: 0.990	Acc: 64.52%	F1: 0.431
+
+TS: Epoch:    50	Loss: 0.979	Acc: 66.32%	F1: 0.436
+VS: Epoch:    50	Loss: 0.982	Acc: 66.37%	F1: 0.434
+
+TS: Epoch:    75	Loss: 0.974	Acc: 67.01%	F1: 0.440
+VS: Epoch:    75	Loss: 0.979	Acc: 67.21%	F1: 0.439
+
+TS: Epoch:   100	Loss: 0.973	Acc: 66.95%	F1: 0.440
+VS: Epoch:   100	Loss: 0.978	Acc: 67.14%	F1: 0.439
+
+TS: Epoch:   125	Loss: 0.972	Acc: 66.87%	F1: 0.440
+VS: Epoch:   125	Loss: 0.977	Acc: 67.10%	F1: 0.440
+
+TS: Epoch:   150	Loss: 0.970	Acc: 66.96%	F1: 0.441
+VS: Epoch:   150	Loss: 0.976	Acc: 67.13%	F1: 0.441
+
+TS: Epoch:   175	Loss: 0.970	Acc: 66.26%	F1: 0.441
+VS: Epoch:   175	Loss: 0.976	Acc: 66.34%	F1: 0.439
+
+TS: Epoch:   200	Loss: 0.969	Acc: 66.94%	F1: 0.442
+VS: Epoch:   200	Loss: 0.975	Acc: 66.98%	F1: 0.439
+
+TS: Epoch:   225	Loss: 0.968	Acc: 67.25%	F1: 0.441
+VS: Epoch:   225	Loss: 0.974	Acc: 67.27%	F1: 0.439
+
+TS: Epoch:   250	Loss: 0.967	Acc: 67.28%	F1: 0.442
+VS: Epoch:   250	Loss: 0.974	Acc: 67.41%	F1: 0.441
+
+TS: Epoch:   275	Loss: 0.967	Acc: 67.24%	F1: 0.443
+VS: Epoch:   275	Loss: 0.974	Acc: 67.34%	F1: 0.441
+
+TS: Epoch:   300	Loss: 0.966	Acc: 67.44%	F1: 0.443
+VS: Epoch:   300	Loss: 0.974	Acc: 67.45%	F1: 0.441
+
+TS: Epoch:   325	Loss: 0.966	Acc: 68.02%	F1: 0.444
+VS: Epoch:   325	Loss: 0.975	Acc: 67.96%	F1: 0.440
+
+TS: Epoch:   350	Loss: 0.966	Acc: 67.82%	F1: 0.444
+VS: Epoch:   350	Loss: 0.974	Acc: 67.75%	F1: 0.439
+
+TS: Epoch:   375	Loss: 0.968	Acc: 63.53%	F1: 0.439
+VS: Epoch:   375	Loss: 0.975	Acc: 63.57%	F1: 0.436
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   375	Loss: 0.975	Acc: 63.57%	F1: 0.436
+
+Test Set:	Loss: 0.975	Acc: 63.42%	F1: 0.437
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.121	Acc: 26.56%	F1: 0.318
+VS: Epoch:     0	Loss: 1.121	Acc: 26.55%	F1: 0.319
+
+TS: Epoch:    25	Loss: 0.990	Acc: 66.44%	F1: 0.431
+VS: Epoch:    25	Loss: 0.996	Acc: 66.32%	F1: 0.427
+
+TS: Epoch:    50	Loss: 0.978	Acc: 68.02%	F1: 0.437
+VS: Epoch:    50	Loss: 0.989	Acc: 67.52%	F1: 0.430
+
+TS: Epoch:    75	Loss: 0.975	Acc: 67.30%	F1: 0.440
+VS: Epoch:    75	Loss: 0.985	Acc: 66.98%	F1: 0.434
+
+TS: Epoch:   100	Loss: 0.971	Acc: 67.18%	F1: 0.442
+VS: Epoch:   100	Loss: 0.980	Acc: 66.89%	F1: 0.436
+
+TS: Epoch:   125	Loss: 0.969	Acc: 67.13%	F1: 0.443
+VS: Epoch:   125	Loss: 0.978	Acc: 66.75%	F1: 0.435
+
+TS: Epoch:   150	Loss: 0.969	Acc: 66.55%	F1: 0.442
+VS: Epoch:   150	Loss: 0.977	Acc: 66.34%	F1: 0.436
+
+TS: Epoch:   175	Loss: 0.968	Acc: 67.08%	F1: 0.443
+VS: Epoch:   175	Loss: 0.976	Acc: 66.79%	F1: 0.438
+
+TS: Epoch:   200	Loss: 0.967	Acc: 67.80%	F1: 0.444
+VS: Epoch:   200	Loss: 0.975	Acc: 67.42%	F1: 0.438
+
+TS: Epoch:   225	Loss: 0.967	Acc: 68.08%	F1: 0.444
+VS: Epoch:   225	Loss: 0.975	Acc: 67.75%	F1: 0.439
+
+TS: Epoch:   250	Loss: 0.967	Acc: 66.67%	F1: 0.443
+VS: Epoch:   250	Loss: 0.975	Acc: 66.37%	F1: 0.437
+
+TS: Epoch:   275	Loss: 0.967	Acc: 65.74%	F1: 0.442
+VS: Epoch:   275	Loss: 0.975	Acc: 65.42%	F1: 0.437
+
+TS: Epoch:   300	Loss: 0.967	Acc: 68.46%	F1: 0.443
+VS: Epoch:   300	Loss: 0.975	Acc: 68.16%	F1: 0.440
+
+TS: Epoch:   325	Loss: 0.967	Acc: 65.54%	F1: 0.442
+VS: Epoch:   325	Loss: 0.975	Acc: 65.20%	F1: 0.436
+
+TS: Epoch:   350	Loss: 0.967	Acc: 67.97%	F1: 0.444
+VS: Epoch:   350	Loss: 0.975	Acc: 67.63%	F1: 0.440
+
+TS: Epoch:   375	Loss: 0.966	Acc: 66.27%	F1: 0.443
+VS: Epoch:   375	Loss: 0.975	Acc: 65.94%	F1: 0.437
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   375	Loss: 0.975	Acc: 65.94%	F1: 0.437
+
+Test Set:	Loss: 0.975	Acc: 66.05%	F1: 0.436
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.121	Acc: 60.45%	F1: 0.242
+VS: Epoch:     0	Loss: 1.120	Acc: 60.28%	F1: 0.243
+
+TS: Epoch:    25	Loss: 0.986	Acc: 64.77%	F1: 0.434
+VS: Epoch:    25	Loss: 0.991	Acc: 64.65%	F1: 0.431
+
+TS: Epoch:    50	Loss: 0.979	Acc: 66.44%	F1: 0.435
+VS: Epoch:    50	Loss: 0.985	Acc: 66.31%	F1: 0.433
+
+TS: Epoch:    75	Loss: 0.974	Acc: 66.32%	F1: 0.437
+VS: Epoch:    75	Loss: 0.980	Acc: 65.95%	F1: 0.433
+
+TS: Epoch:   100	Loss: 0.972	Acc: 66.76%	F1: 0.437
+VS: Epoch:   100	Loss: 0.978	Acc: 66.64%	F1: 0.435
+
+TS: Epoch:   125	Loss: 0.970	Acc: 66.91%	F1: 0.439
+VS: Epoch:   125	Loss: 0.976	Acc: 66.70%	F1: 0.437
+
+TS: Epoch:   150	Loss: 0.969	Acc: 66.58%	F1: 0.439
+VS: Epoch:   150	Loss: 0.976	Acc: 66.25%	F1: 0.436
+
+TS: Epoch:   175	Loss: 0.969	Acc: 66.72%	F1: 0.440
+VS: Epoch:   175	Loss: 0.976	Acc: 66.39%	F1: 0.436
+
+TS: Epoch:   200	Loss: 0.968	Acc: 66.57%	F1: 0.440
+VS: Epoch:   200	Loss: 0.976	Acc: 66.12%	F1: 0.435
+
+TS: Epoch:   225	Loss: 0.968	Acc: 67.04%	F1: 0.441
+VS: Epoch:   225	Loss: 0.976	Acc: 66.61%	F1: 0.435
+
+TS: Epoch:   250	Loss: 0.968	Acc: 66.34%	F1: 0.441
+VS: Epoch:   250	Loss: 0.976	Acc: 65.94%	F1: 0.435
+
+TS: Epoch:   275	Loss: 0.968	Acc: 67.66%	F1: 0.442
+VS: Epoch:   275	Loss: 0.976	Acc: 67.29%	F1: 0.436
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   275	Loss: 0.976	Acc: 67.29%	F1: 0.436
+
+Test Set:	Loss: 0.975	Acc: 67.59%	F1: 0.443
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.128	Acc: 78.73%	F1: 0.178
+VS: Epoch:     0	Loss: 1.126	Acc: 78.74%	F1: 0.180
+
+TS: Epoch:    25	Loss: 0.988	Acc: 62.10%	F1: 0.427
+VS: Epoch:    25	Loss: 0.992	Acc: 61.99%	F1: 0.428
+
+TS: Epoch:    50	Loss: 0.981	Acc: 66.16%	F1: 0.434
+VS: Epoch:    50	Loss: 0.986	Acc: 65.77%	F1: 0.431
+
+TS: Epoch:    75	Loss: 0.978	Acc: 66.04%	F1: 0.437
+VS: Epoch:    75	Loss: 0.984	Acc: 65.56%	F1: 0.433
+
+TS: Epoch:   100	Loss: 0.976	Acc: 66.28%	F1: 0.439
+VS: Epoch:   100	Loss: 0.982	Acc: 65.87%	F1: 0.436
+
+TS: Epoch:   125	Loss: 0.975	Acc: 66.55%	F1: 0.440
+VS: Epoch:   125	Loss: 0.981	Acc: 66.10%	F1: 0.437
+
+TS: Epoch:   150	Loss: 0.974	Acc: 66.59%	F1: 0.439
+VS: Epoch:   150	Loss: 0.980	Acc: 66.25%	F1: 0.437
+
+TS: Epoch:   175	Loss: 0.972	Acc: 67.03%	F1: 0.439
+VS: Epoch:   175	Loss: 0.978	Acc: 66.74%	F1: 0.438
+
+TS: Epoch:   200	Loss: 0.971	Acc: 67.36%	F1: 0.440
+VS: Epoch:   200	Loss: 0.977	Acc: 66.85%	F1: 0.436
+
+TS: Epoch:   225	Loss: 0.969	Acc: 67.21%	F1: 0.441
+VS: Epoch:   225	Loss: 0.976	Acc: 66.93%	F1: 0.440
+
+TS: Epoch:   250	Loss: 0.969	Acc: 67.18%	F1: 0.442
+VS: Epoch:   250	Loss: 0.976	Acc: 66.93%	F1: 0.440
+
+TS: Epoch:   275	Loss: 0.968	Acc: 67.73%	F1: 0.443
+VS: Epoch:   275	Loss: 0.976	Acc: 67.30%	F1: 0.438
+
+TS: Epoch:   300	Loss: 0.967	Acc: 67.18%	F1: 0.442
+VS: Epoch:   300	Loss: 0.975	Acc: 66.75%	F1: 0.439
+
+TS: Epoch:   325	Loss: 0.967	Acc: 67.04%	F1: 0.443
+VS: Epoch:   325	Loss: 0.975	Acc: 66.52%	F1: 0.438
+
+TS: Epoch:   350	Loss: 0.966	Acc: 66.82%	F1: 0.445
+VS: Epoch:   350	Loss: 0.974	Acc: 66.30%	F1: 0.439
+
+TS: Epoch:   375	Loss: 0.966	Acc: 66.77%	F1: 0.445
+VS: Epoch:   375	Loss: 0.974	Acc: 66.36%	F1: 0.440
+
+TS: Epoch:   400	Loss: 0.965	Acc: 66.74%	F1: 0.445
+VS: Epoch:   400	Loss: 0.974	Acc: 66.34%	F1: 0.441
+
+TS: Epoch:   425	Loss: 0.965	Acc: 66.61%	F1: 0.446
+VS: Epoch:   425	Loss: 0.973	Acc: 66.08%	F1: 0.440
+
+TS: Epoch:   450	Loss: 0.964	Acc: 66.73%	F1: 0.446
+VS: Epoch:   450	Loss: 0.973	Acc: 66.37%	F1: 0.442
+
+TS: Epoch:   475	Loss: 0.964	Acc: 65.71%	F1: 0.445
+VS: Epoch:   475	Loss: 0.974	Acc: 65.19%	F1: 0.439
+
+TS: Epoch:   500	Loss: 0.964	Acc: 66.62%	F1: 0.446
+VS: Epoch:   500	Loss: 0.973	Acc: 66.17%	F1: 0.441
+
+Final VS: Epoch:   500	Loss: 0.973	Acc: 66.17%	F1: 0.441
+
+Test Set:	Loss: 0.967	Acc: 66.80%	F1: 0.450
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.086	Acc: 66.16%	F1: 0.343
+VS: Epoch:     0	Loss: 1.087	Acc: 66.06%	F1: 0.339
+
+TS: Epoch:    25	Loss: 0.987	Acc: 65.52%	F1: 0.432
+VS: Epoch:    25	Loss: 0.991	Acc: 65.43%	F1: 0.432
+
+TS: Epoch:    50	Loss: 0.977	Acc: 66.58%	F1: 0.437
+VS: Epoch:    50	Loss: 0.985	Acc: 66.26%	F1: 0.432
+
+TS: Epoch:    75	Loss: 0.973	Acc: 67.32%	F1: 0.441
+VS: Epoch:    75	Loss: 0.980	Acc: 67.08%	F1: 0.437
+
+TS: Epoch:   100	Loss: 0.971	Acc: 67.28%	F1: 0.442
+VS: Epoch:   100	Loss: 0.979	Acc: 66.95%	F1: 0.437
+
+TS: Epoch:   125	Loss: 0.970	Acc: 67.58%	F1: 0.441
+VS: Epoch:   125	Loss: 0.978	Acc: 67.31%	F1: 0.436
+
+TS: Epoch:   150	Loss: 0.969	Acc: 67.53%	F1: 0.441
+VS: Epoch:   150	Loss: 0.977	Acc: 67.36%	F1: 0.439
+
+TS: Epoch:   175	Loss: 0.969	Acc: 67.54%	F1: 0.441
+VS: Epoch:   175	Loss: 0.977	Acc: 67.38%	F1: 0.438
+
+TS: Epoch:   200	Loss: 0.969	Acc: 67.27%	F1: 0.441
+VS: Epoch:   200	Loss: 0.976	Acc: 67.04%	F1: 0.437
+
+TS: Epoch:   225	Loss: 0.971	Acc: 70.13%	F1: 0.443
+VS: Epoch:   225	Loss: 0.979	Acc: 69.93%	F1: 0.438
+
+TS: Epoch:   250	Loss: 0.969	Acc: 68.16%	F1: 0.442
+VS: Epoch:   250	Loss: 0.977	Acc: 67.97%	F1: 0.438
+
+TS: Epoch:   275	Loss: 0.968	Acc: 67.30%	F1: 0.441
+VS: Epoch:   275	Loss: 0.977	Acc: 67.01%	F1: 0.436
+
+TS: Epoch:   300	Loss: 0.968	Acc: 67.27%	F1: 0.442
+VS: Epoch:   300	Loss: 0.977	Acc: 66.98%	F1: 0.436
+
+TS: Epoch:   325	Loss: 0.969	Acc: 68.70%	F1: 0.443
+VS: Epoch:   325	Loss: 0.977	Acc: 68.49%	F1: 0.438
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   325	Loss: 0.977	Acc: 68.49%	F1: 0.438
+
+Test Set:	Loss: 0.980	Acc: 68.09%	F1: 0.434
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.105	Acc: 33.72%	F1: 0.338
+VS: Epoch:     0	Loss: 1.105	Acc: 33.44%	F1: 0.336
+
+TS: Epoch:    25	Loss: 0.989	Acc: 65.18%	F1: 0.429
+VS: Epoch:    25	Loss: 0.995	Acc: 64.99%	F1: 0.426
+
+TS: Epoch:    50	Loss: 0.981	Acc: 66.60%	F1: 0.433
+VS: Epoch:    50	Loss: 0.986	Acc: 66.44%	F1: 0.432
+
+TS: Epoch:    75	Loss: 0.975	Acc: 67.52%	F1: 0.438
+VS: Epoch:    75	Loss: 0.979	Acc: 67.33%	F1: 0.438
+
+TS: Epoch:   100	Loss: 0.971	Acc: 67.79%	F1: 0.440
+VS: Epoch:   100	Loss: 0.978	Acc: 67.69%	F1: 0.441
+
+TS: Epoch:   125	Loss: 0.970	Acc: 66.02%	F1: 0.439
+VS: Epoch:   125	Loss: 0.977	Acc: 65.78%	F1: 0.438
+
+TS: Epoch:   150	Loss: 0.970	Acc: 68.15%	F1: 0.440
+VS: Epoch:   150	Loss: 0.978	Acc: 68.02%	F1: 0.439
+
+TS: Epoch:   175	Loss: 0.969	Acc: 67.71%	F1: 0.440
+VS: Epoch:   175	Loss: 0.977	Acc: 67.51%	F1: 0.439
+
+TS: Epoch:   200	Loss: 0.969	Acc: 65.87%	F1: 0.439
+VS: Epoch:   200	Loss: 0.977	Acc: 65.54%	F1: 0.436
+
+TS: Epoch:   225	Loss: 0.968	Acc: 65.90%	F1: 0.439
+VS: Epoch:   225	Loss: 0.977	Acc: 65.66%	F1: 0.437
+
+TS: Epoch:   250	Loss: 0.968	Acc: 66.18%	F1: 0.439
+VS: Epoch:   250	Loss: 0.977	Acc: 65.83%	F1: 0.437
+
+TS: Epoch:   275	Loss: 0.968	Acc: 65.90%	F1: 0.438
+VS: Epoch:   275	Loss: 0.977	Acc: 65.69%	F1: 0.437
+
+TS: Epoch:   300	Loss: 0.968	Acc: 66.95%	F1: 0.440
+VS: Epoch:   300	Loss: 0.977	Acc: 66.77%	F1: 0.438
+
+TS: Epoch:   325	Loss: 0.967	Acc: 66.56%	F1: 0.439
+VS: Epoch:   325	Loss: 0.977	Acc: 66.35%	F1: 0.438
+
+TS: Epoch:   350	Loss: 0.968	Acc: 67.55%	F1: 0.440
+VS: Epoch:   350	Loss: 0.977	Acc: 67.34%	F1: 0.439
+
+TS: Epoch:   375	Loss: 0.967	Acc: 64.87%	F1: 0.438
+VS: Epoch:   375	Loss: 0.978	Acc: 64.49%	F1: 0.434
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   375	Loss: 0.978	Acc: 64.49%	F1: 0.434
+
+Test Set:	Loss: 0.973	Acc: 64.85%	F1: 0.434
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.092	Acc: 34.83%	F1: 0.352
+VS: Epoch:     0	Loss: 1.092	Acc: 34.91%	F1: 0.353
+
+TS: Epoch:    25	Loss: 0.985	Acc: 68.71%	F1: 0.433
+VS: Epoch:    25	Loss: 0.988	Acc: 68.47%	F1: 0.430
+
+TS: Epoch:    50	Loss: 0.975	Acc: 66.25%	F1: 0.438
+VS: Epoch:    50	Loss: 0.976	Acc: 66.38%	F1: 0.439
+
+TS: Epoch:    75	Loss: 0.971	Acc: 66.36%	F1: 0.441
+VS: Epoch:    75	Loss: 0.973	Acc: 66.46%	F1: 0.439
+
+TS: Epoch:   100	Loss: 0.969	Acc: 66.69%	F1: 0.441
+VS: Epoch:   100	Loss: 0.972	Acc: 66.72%	F1: 0.440
+
+TS: Epoch:   125	Loss: 0.969	Acc: 67.41%	F1: 0.443
+VS: Epoch:   125	Loss: 0.972	Acc: 67.44%	F1: 0.442
+
+TS: Epoch:   150	Loss: 0.968	Acc: 67.65%	F1: 0.443
+VS: Epoch:   150	Loss: 0.972	Acc: 67.53%	F1: 0.440
+
+TS: Epoch:   175	Loss: 0.967	Acc: 65.86%	F1: 0.443
+VS: Epoch:   175	Loss: 0.972	Acc: 65.86%	F1: 0.441
+
+TS: Epoch:   200	Loss: 0.967	Acc: 68.09%	F1: 0.445
+VS: Epoch:   200	Loss: 0.972	Acc: 67.82%	F1: 0.441
+
+TS: Epoch:   225	Loss: 0.967	Acc: 68.44%	F1: 0.446
+VS: Epoch:   225	Loss: 0.972	Acc: 68.11%	F1: 0.441
+
+TS: Epoch:   250	Loss: 0.966	Acc: 67.40%	F1: 0.446
+VS: Epoch:   250	Loss: 0.972	Acc: 67.08%	F1: 0.440
+
+TS: Epoch:   275	Loss: 0.965	Acc: 67.07%	F1: 0.445
+VS: Epoch:   275	Loss: 0.972	Acc: 66.76%	F1: 0.439
+
+TS: Epoch:   300	Loss: 0.966	Acc: 68.40%	F1: 0.447
+VS: Epoch:   300	Loss: 0.972	Acc: 68.01%	F1: 0.439
+
+TS: Epoch:   325	Loss: 0.965	Acc: 67.48%	F1: 0.446
+VS: Epoch:   325	Loss: 0.972	Acc: 67.05%	F1: 0.438
+
+TS: Epoch:   350	Loss: 0.966	Acc: 64.75%	F1: 0.442
+VS: Epoch:   350	Loss: 0.973	Acc: 64.72%	F1: 0.440
+
+TS: Epoch:   375	Loss: 0.966	Acc: 64.86%	F1: 0.442
+VS: Epoch:   375	Loss: 0.973	Acc: 64.76%	F1: 0.439
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   375	Loss: 0.973	Acc: 64.76%	F1: 0.439
+
+Test Set:	Loss: 0.966	Acc: 64.85%	F1: 0.443
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.092	Acc: 37.31%	F1: 0.342
+VS: Epoch:     0	Loss: 1.093	Acc: 36.97%	F1: 0.338
+
+TS: Epoch:    25	Loss: 0.987	Acc: 66.23%	F1: 0.429
+VS: Epoch:    25	Loss: 0.995	Acc: 66.17%	F1: 0.427
+
+TS: Epoch:    50	Loss: 0.978	Acc: 66.01%	F1: 0.437
+VS: Epoch:    50	Loss: 0.988	Acc: 65.79%	F1: 0.432
+
+TS: Epoch:    75	Loss: 0.972	Acc: 67.04%	F1: 0.441
+VS: Epoch:    75	Loss: 0.983	Acc: 66.82%	F1: 0.435
+
+TS: Epoch:   100	Loss: 0.969	Acc: 66.63%	F1: 0.443
+VS: Epoch:   100	Loss: 0.980	Acc: 66.39%	F1: 0.437
+
+TS: Epoch:   125	Loss: 0.967	Acc: 66.44%	F1: 0.445
+VS: Epoch:   125	Loss: 0.979	Acc: 66.11%	F1: 0.438
+
+TS: Epoch:   150	Loss: 0.966	Acc: 67.30%	F1: 0.447
+VS: Epoch:   150	Loss: 0.978	Acc: 67.01%	F1: 0.439
+
+TS: Epoch:   175	Loss: 0.967	Acc: 69.57%	F1: 0.448
+VS: Epoch:   175	Loss: 0.981	Acc: 69.18%	F1: 0.437
+
+TS: Epoch:   200	Loss: 0.964	Acc: 67.52%	F1: 0.448
+VS: Epoch:   200	Loss: 0.979	Acc: 67.11%	F1: 0.438
+
+TS: Epoch:   225	Loss: 0.966	Acc: 63.77%	F1: 0.441
+VS: Epoch:   225	Loss: 0.979	Acc: 63.56%	F1: 0.436
+
+TS: Epoch:   250	Loss: 0.964	Acc: 65.90%	F1: 0.446
+VS: Epoch:   250	Loss: 0.978	Acc: 65.53%	F1: 0.437
+
+TS: Epoch:   275	Loss: 0.964	Acc: 64.82%	F1: 0.444
+VS: Epoch:   275	Loss: 0.978	Acc: 64.50%	F1: 0.436
+
+TS: Epoch:   300	Loss: 0.964	Acc: 68.08%	F1: 0.449
+VS: Epoch:   300	Loss: 0.979	Acc: 67.61%	F1: 0.437
+
+TS: Epoch:   325	Loss: 0.963	Acc: 67.75%	F1: 0.449
+VS: Epoch:   325	Loss: 0.979	Acc: 67.34%	F1: 0.438
+
+TS: Epoch:   350	Loss: 0.963	Acc: 66.59%	F1: 0.447
+VS: Epoch:   350	Loss: 0.978	Acc: 66.12%	F1: 0.437
+
+TS: Epoch:   375	Loss: 0.964	Acc: 68.49%	F1: 0.450
+VS: Epoch:   375	Loss: 0.979	Acc: 67.93%	F1: 0.437
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   375	Loss: 0.979	Acc: 67.93%	F1: 0.437
+
+Test Set:	Loss: 0.970	Acc: 68.66%	F1: 0.449
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.084	Acc: 75.33%	F1: 0.294
+VS: Epoch:     0	Loss: 1.083	Acc: 75.24%	F1: 0.294
+
+TS: Epoch:    25	Loss: 0.985	Acc: 68.22%	F1: 0.435
+VS: Epoch:    25	Loss: 0.986	Acc: 68.09%	F1: 0.434
+
+TS: Epoch:    50	Loss: 0.975	Acc: 66.45%	F1: 0.440
+VS: Epoch:    50	Loss: 0.977	Acc: 66.33%	F1: 0.439
+
+TS: Epoch:    75	Loss: 0.969	Acc: 66.56%	F1: 0.443
+VS: Epoch:    75	Loss: 0.973	Acc: 66.50%	F1: 0.440
+
+TS: Epoch:   100	Loss: 0.966	Acc: 67.41%	F1: 0.445
+VS: Epoch:   100	Loss: 0.973	Acc: 67.36%	F1: 0.444
+
+TS: Epoch:   125	Loss: 0.965	Acc: 68.07%	F1: 0.447
+VS: Epoch:   125	Loss: 0.972	Acc: 67.89%	F1: 0.444
+
+TS: Epoch:   150	Loss: 0.965	Acc: 69.67%	F1: 0.448
+VS: Epoch:   150	Loss: 0.973	Acc: 69.51%	F1: 0.445
+
+TS: Epoch:   175	Loss: 0.963	Acc: 67.78%	F1: 0.448
+VS: Epoch:   175	Loss: 0.971	Acc: 67.40%	F1: 0.441
+
+TS: Epoch:   200	Loss: 0.963	Acc: 64.70%	F1: 0.444
+VS: Epoch:   200	Loss: 0.971	Acc: 64.47%	F1: 0.440
+
+TS: Epoch:   225	Loss: 0.963	Acc: 65.19%	F1: 0.445
+VS: Epoch:   225	Loss: 0.970	Acc: 64.98%	F1: 0.440
+
+TS: Epoch:   250	Loss: 0.963	Acc: 64.76%	F1: 0.444
+VS: Epoch:   250	Loss: 0.971	Acc: 64.53%	F1: 0.440
+
+TS: Epoch:   275	Loss: 0.963	Acc: 65.01%	F1: 0.445
+VS: Epoch:   275	Loss: 0.970	Acc: 64.73%	F1: 0.440
+
+TS: Epoch:   300	Loss: 0.962	Acc: 67.10%	F1: 0.448
+VS: Epoch:   300	Loss: 0.970	Acc: 66.62%	F1: 0.441
+
+TS: Epoch:   325	Loss: 0.962	Acc: 68.95%	F1: 0.450
+VS: Epoch:   325	Loss: 0.970	Acc: 68.59%	F1: 0.443
+
+TS: Epoch:   350	Loss: 0.962	Acc: 65.01%	F1: 0.444
+VS: Epoch:   350	Loss: 0.970	Acc: 64.65%	F1: 0.439
+
+TS: Epoch:   375	Loss: 0.962	Acc: 65.07%	F1: 0.445
+VS: Epoch:   375	Loss: 0.970	Acc: 64.82%	F1: 0.441
+
+TS: Epoch:   400	Loss: 0.963	Acc: 69.81%	F1: 0.451
+VS: Epoch:   400	Loss: 0.971	Acc: 69.54%	F1: 0.446
+
+TS: Epoch:   425	Loss: 0.962	Acc: 68.31%	F1: 0.449
+VS: Epoch:   425	Loss: 0.970	Acc: 68.09%	F1: 0.444
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   425	Loss: 0.970	Acc: 68.09%	F1: 0.444
+
+Test Set:	Loss: 0.980	Acc: 67.52%	F1: 0.438
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.095	Acc: 62.61%	F1: 0.289
+VS: Epoch:     0	Loss: 1.096	Acc: 62.13%	F1: 0.291
+
+TS: Epoch:    25	Loss: 0.984	Acc: 67.78%	F1: 0.435
+VS: Epoch:    25	Loss: 0.990	Acc: 67.33%	F1: 0.428
+
+TS: Epoch:    50	Loss: 0.975	Acc: 67.89%	F1: 0.439
+VS: Epoch:    50	Loss: 0.980	Acc: 67.64%	F1: 0.434
+
+TS: Epoch:    75	Loss: 0.971	Acc: 67.43%	F1: 0.441
+VS: Epoch:    75	Loss: 0.977	Acc: 66.99%	F1: 0.435
+
+TS: Epoch:   100	Loss: 0.969	Acc: 67.41%	F1: 0.442
+VS: Epoch:   100	Loss: 0.974	Acc: 66.98%	F1: 0.435
+
+TS: Epoch:   125	Loss: 0.970	Acc: 64.89%	F1: 0.438
+VS: Epoch:   125	Loss: 0.974	Acc: 64.65%	F1: 0.435
+
+TS: Epoch:   150	Loss: 0.967	Acc: 67.82%	F1: 0.443
+VS: Epoch:   150	Loss: 0.972	Acc: 67.41%	F1: 0.436
+
+TS: Epoch:   175	Loss: 0.966	Acc: 67.03%	F1: 0.443
+VS: Epoch:   175	Loss: 0.971	Acc: 66.64%	F1: 0.437
+
+TS: Epoch:   200	Loss: 0.966	Acc: 65.63%	F1: 0.440
+VS: Epoch:   200	Loss: 0.972	Acc: 65.31%	F1: 0.436
+
+TS: Epoch:   225	Loss: 0.965	Acc: 66.49%	F1: 0.442
+VS: Epoch:   225	Loss: 0.971	Acc: 66.15%	F1: 0.437
+
+TS: Epoch:   250	Loss: 0.964	Acc: 67.38%	F1: 0.444
+VS: Epoch:   250	Loss: 0.971	Acc: 67.03%	F1: 0.439
+
+TS: Epoch:   275	Loss: 0.964	Acc: 67.81%	F1: 0.444
+VS: Epoch:   275	Loss: 0.971	Acc: 67.46%	F1: 0.439
+
+TS: Epoch:   300	Loss: 0.963	Acc: 67.53%	F1: 0.444
+VS: Epoch:   300	Loss: 0.971	Acc: 67.13%	F1: 0.438
+
+TS: Epoch:   325	Loss: 0.964	Acc: 68.56%	F1: 0.445
+VS: Epoch:   325	Loss: 0.972	Acc: 68.08%	F1: 0.437
+
+TS: Epoch:   350	Loss: 0.963	Acc: 67.70%	F1: 0.445
+VS: Epoch:   350	Loss: 0.971	Acc: 67.34%	F1: 0.439
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   350	Loss: 0.971	Acc: 67.34%	F1: 0.439
+
+Test Set:	Loss: 0.971	Acc: 67.59%	F1: 0.440
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.090	Acc: 76.77%	F1: 0.245
+VS: Epoch:     0	Loss: 1.090	Acc: 76.71%	F1: 0.238
+
+TS: Epoch:    25	Loss: 0.983	Acc: 66.51%	F1: 0.432
+VS: Epoch:    25	Loss: 0.987	Acc: 66.81%	F1: 0.436
+
+TS: Epoch:    50	Loss: 0.975	Acc: 67.34%	F1: 0.438
+VS: Epoch:    50	Loss: 0.979	Acc: 67.76%	F1: 0.442
+
+TS: Epoch:    75	Loss: 0.970	Acc: 66.61%	F1: 0.442
+VS: Epoch:    75	Loss: 0.975	Acc: 66.58%	F1: 0.439
+
+TS: Epoch:   100	Loss: 0.968	Acc: 68.48%	F1: 0.444
+VS: Epoch:   100	Loss: 0.976	Acc: 68.35%	F1: 0.440
+
+TS: Epoch:   125	Loss: 0.966	Acc: 66.01%	F1: 0.443
+VS: Epoch:   125	Loss: 0.974	Acc: 65.89%	F1: 0.441
+
+TS: Epoch:   150	Loss: 0.965	Acc: 67.71%	F1: 0.446
+VS: Epoch:   150	Loss: 0.975	Acc: 67.50%	F1: 0.442
+
+TS: Epoch:   175	Loss: 0.964	Acc: 64.73%	F1: 0.443
+VS: Epoch:   175	Loss: 0.974	Acc: 64.55%	F1: 0.439
+
+TS: Epoch:   200	Loss: 0.963	Acc: 66.36%	F1: 0.446
+VS: Epoch:   200	Loss: 0.974	Acc: 66.06%	F1: 0.441
+
+TS: Epoch:   225	Loss: 0.964	Acc: 68.04%	F1: 0.449
+VS: Epoch:   225	Loss: 0.975	Acc: 67.73%	F1: 0.442
+
+TS: Epoch:   250	Loss: 0.963	Acc: 67.44%	F1: 0.448
+VS: Epoch:   250	Loss: 0.974	Acc: 67.10%	F1: 0.442
+
+TS: Epoch:   275	Loss: 0.963	Acc: 64.54%	F1: 0.443
+VS: Epoch:   275	Loss: 0.974	Acc: 64.24%	F1: 0.438
+
+TS: Epoch:   300	Loss: 0.963	Acc: 64.82%	F1: 0.444
+VS: Epoch:   300	Loss: 0.974	Acc: 64.55%	F1: 0.439
+
+TS: Epoch:   325	Loss: 0.964	Acc: 68.77%	F1: 0.450
+VS: Epoch:   325	Loss: 0.976	Acc: 68.37%	F1: 0.441
+
+TS: Epoch:   350	Loss: 0.962	Acc: 67.27%	F1: 0.448
+VS: Epoch:   350	Loss: 0.974	Acc: 67.04%	F1: 0.442
+
+TS: Epoch:   375	Loss: 0.962	Acc: 67.11%	F1: 0.448
+VS: Epoch:   375	Loss: 0.974	Acc: 66.81%	F1: 0.442
+
+TS: Epoch:   400	Loss: 0.962	Acc: 67.80%	F1: 0.449
+VS: Epoch:   400	Loss: 0.975	Acc: 67.56%	F1: 0.444
+
+TS: Epoch:   425	Loss: 0.962	Acc: 64.98%	F1: 0.444
+VS: Epoch:   425	Loss: 0.974	Acc: 64.64%	F1: 0.439
+
+TS: Epoch:   450	Loss: 0.962	Acc: 65.90%	F1: 0.446
+VS: Epoch:   450	Loss: 0.974	Acc: 65.60%	F1: 0.441
+
+TS: Epoch:   475	Loss: 0.962	Acc: 65.19%	F1: 0.445
+VS: Epoch:   475	Loss: 0.973	Acc: 64.80%	F1: 0.439
+
+TS: Epoch:   500	Loss: 0.962	Acc: 67.99%	F1: 0.449
+VS: Epoch:   500	Loss: 0.975	Acc: 67.67%	F1: 0.443
+
+Final VS: Epoch:   500	Loss: 0.975	Acc: 67.67%	F1: 0.443
+
+Test Set:	Loss: 0.979	Acc: 67.49%	F1: 0.440
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.074	Acc: 61.45%	F1: 0.355
+VS: Epoch:     0	Loss: 1.071	Acc: 61.82%	F1: 0.360
+
+TS: Epoch:    25	Loss: 0.984	Acc: 64.55%	F1: 0.430
+VS: Epoch:    25	Loss: 0.985	Acc: 64.57%	F1: 0.430
+
+TS: Epoch:    50	Loss: 0.974	Acc: 66.00%	F1: 0.438
+VS: Epoch:    50	Loss: 0.977	Acc: 65.81%	F1: 0.435
+
+TS: Epoch:    75	Loss: 0.970	Acc: 66.88%	F1: 0.440
+VS: Epoch:    75	Loss: 0.973	Acc: 66.80%	F1: 0.439
+
+TS: Epoch:   100	Loss: 0.969	Acc: 67.68%	F1: 0.442
+VS: Epoch:   100	Loss: 0.972	Acc: 67.61%	F1: 0.442
+
+TS: Epoch:   125	Loss: 0.968	Acc: 68.09%	F1: 0.443
+VS: Epoch:   125	Loss: 0.972	Acc: 67.96%	F1: 0.441
+
+TS: Epoch:   150	Loss: 0.967	Acc: 66.24%	F1: 0.442
+VS: Epoch:   150	Loss: 0.971	Acc: 66.08%	F1: 0.440
+
+TS: Epoch:   175	Loss: 0.971	Acc: 70.67%	F1: 0.444
+VS: Epoch:   175	Loss: 0.976	Acc: 70.54%	F1: 0.441
+
+TS: Epoch:   200	Loss: 0.966	Acc: 66.85%	F1: 0.443
+VS: Epoch:   200	Loss: 0.971	Acc: 66.61%	F1: 0.440
+
+TS: Epoch:   225	Loss: 0.966	Acc: 67.21%	F1: 0.444
+VS: Epoch:   225	Loss: 0.971	Acc: 67.05%	F1: 0.442
+
+TS: Epoch:   250	Loss: 0.966	Acc: 64.12%	F1: 0.440
+VS: Epoch:   250	Loss: 0.971	Acc: 63.94%	F1: 0.439
+
+TS: Epoch:   275	Loss: 0.965	Acc: 65.29%	F1: 0.442
+VS: Epoch:   275	Loss: 0.970	Acc: 65.13%	F1: 0.440
+
+TS: Epoch:   300	Loss: 0.966	Acc: 64.03%	F1: 0.441
+VS: Epoch:   300	Loss: 0.971	Acc: 63.86%	F1: 0.439
+
+TS: Epoch:   325	Loss: 0.966	Acc: 68.42%	F1: 0.445
+VS: Epoch:   325	Loss: 0.972	Acc: 68.35%	F1: 0.443
+
+TS: Epoch:   350	Loss: 0.965	Acc: 66.14%	F1: 0.443
+VS: Epoch:   350	Loss: 0.970	Acc: 65.99%	F1: 0.440
+
+TS: Epoch:   375	Loss: 0.966	Acc: 63.79%	F1: 0.440
+VS: Epoch:   375	Loss: 0.971	Acc: 63.76%	F1: 0.440
+
+TS: Epoch:   400	Loss: 0.966	Acc: 68.45%	F1: 0.445
+VS: Epoch:   400	Loss: 0.971	Acc: 68.38%	F1: 0.443
+
+TS: Epoch:   425	Loss: 0.966	Acc: 63.85%	F1: 0.441
+VS: Epoch:   425	Loss: 0.971	Acc: 63.86%	F1: 0.441
+
+TS: Epoch:   450	Loss: 0.964	Acc: 66.65%	F1: 0.444
+VS: Epoch:   450	Loss: 0.970	Acc: 66.52%	F1: 0.441
+
+TS: Epoch:   475	Loss: 0.965	Acc: 63.56%	F1: 0.441
+VS: Epoch:   475	Loss: 0.971	Acc: 63.59%	F1: 0.442
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   475	Loss: 0.971	Acc: 63.59%	F1: 0.442
+
+Test Set:	Loss: 0.971	Acc: 63.27%	F1: 0.435
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.086	Acc: 78.28%	F1: 0.237
+VS: Epoch:     0	Loss: 1.084	Acc: 78.43%	F1: 0.238
+
+TS: Epoch:    25	Loss: 0.986	Acc: 66.48%	F1: 0.431
+VS: Epoch:    25	Loss: 0.979	Acc: 67.20%	F1: 0.438
+
+TS: Epoch:    50	Loss: 0.979	Acc: 66.72%	F1: 0.435
+VS: Epoch:    50	Loss: 0.972	Acc: 67.36%	F1: 0.441
+
+TS: Epoch:    75	Loss: 0.974	Acc: 66.09%	F1: 0.437
+VS: Epoch:    75	Loss: 0.966	Acc: 66.74%	F1: 0.443
+
+TS: Epoch:   100	Loss: 0.971	Acc: 66.75%	F1: 0.439
+VS: Epoch:   100	Loss: 0.964	Acc: 67.46%	F1: 0.445
+
+TS: Epoch:   125	Loss: 0.969	Acc: 66.91%	F1: 0.440
+VS: Epoch:   125	Loss: 0.963	Acc: 67.57%	F1: 0.444
+
+TS: Epoch:   150	Loss: 0.968	Acc: 67.20%	F1: 0.441
+VS: Epoch:   150	Loss: 0.963	Acc: 67.74%	F1: 0.444
+
+TS: Epoch:   175	Loss: 0.967	Acc: 66.96%	F1: 0.442
+VS: Epoch:   175	Loss: 0.962	Acc: 67.41%	F1: 0.443
+
+TS: Epoch:   200	Loss: 0.966	Acc: 67.15%	F1: 0.443
+VS: Epoch:   200	Loss: 0.962	Acc: 67.76%	F1: 0.446
+
+TS: Epoch:   225	Loss: 0.965	Acc: 67.17%	F1: 0.443
+VS: Epoch:   225	Loss: 0.961	Acc: 67.85%	F1: 0.449
+
+TS: Epoch:   250	Loss: 0.965	Acc: 66.82%	F1: 0.443
+VS: Epoch:   250	Loss: 0.961	Acc: 67.38%	F1: 0.447
+
+TS: Epoch:   275	Loss: 0.965	Acc: 66.77%	F1: 0.443
+VS: Epoch:   275	Loss: 0.961	Acc: 67.37%	F1: 0.448
+
+TS: Epoch:   300	Loss: 0.965	Acc: 66.37%	F1: 0.442
+VS: Epoch:   300	Loss: 0.961	Acc: 66.95%	F1: 0.448
+
+TS: Epoch:   325	Loss: 0.965	Acc: 67.86%	F1: 0.444
+VS: Epoch:   325	Loss: 0.961	Acc: 68.58%	F1: 0.451
+
+TS: Epoch:   350	Loss: 0.965	Acc: 68.01%	F1: 0.445
+VS: Epoch:   350	Loss: 0.961	Acc: 68.67%	F1: 0.451
+
+TS: Epoch:   375	Loss: 0.964	Acc: 66.95%	F1: 0.443
+VS: Epoch:   375	Loss: 0.960	Acc: 67.68%	F1: 0.449
+
+TS: Epoch:   400	Loss: 0.964	Acc: 66.57%	F1: 0.443
+VS: Epoch:   400	Loss: 0.960	Acc: 67.22%	F1: 0.448
+
+TS: Epoch:   425	Loss: 0.964	Acc: 66.27%	F1: 0.443
+VS: Epoch:   425	Loss: 0.961	Acc: 66.92%	F1: 0.449
+
+TS: Epoch:   450	Loss: 0.964	Acc: 65.99%	F1: 0.442
+VS: Epoch:   450	Loss: 0.961	Acc: 66.65%	F1: 0.448
+
+TS: Epoch:   475	Loss: 0.964	Acc: 66.09%	F1: 0.443
+VS: Epoch:   475	Loss: 0.961	Acc: 66.71%	F1: 0.448
+
+TS: Epoch:   500	Loss: 0.964	Acc: 66.59%	F1: 0.444
+VS: Epoch:   500	Loss: 0.961	Acc: 67.21%	F1: 0.449
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   500	Loss: 0.961	Acc: 67.21%	F1: 0.449
+
+Test Set:	Loss: 0.969	Acc: 66.35%	F1: 0.442
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.103	Acc: 37.03%	F1: 0.341
+VS: Epoch:     0	Loss: 1.103	Acc: 36.95%	F1: 0.342
+
+TS: Epoch:    25	Loss: 0.989	Acc: 69.04%	F1: 0.432
+VS: Epoch:    25	Loss: 0.984	Acc: 69.30%	F1: 0.436
+
+TS: Epoch:    50	Loss: 0.982	Acc: 66.80%	F1: 0.434
+VS: Epoch:    50	Loss: 0.977	Acc: 66.97%	F1: 0.439
+
+TS: Epoch:    75	Loss: 0.975	Acc: 66.91%	F1: 0.439
+VS: Epoch:    75	Loss: 0.970	Acc: 67.31%	F1: 0.447
+
+TS: Epoch:   100	Loss: 0.972	Acc: 66.18%	F1: 0.441
+VS: Epoch:   100	Loss: 0.966	Acc: 66.37%	F1: 0.446
+
+TS: Epoch:   125	Loss: 0.969	Acc: 66.18%	F1: 0.443
+VS: Epoch:   125	Loss: 0.965	Acc: 66.24%	F1: 0.448
+
+TS: Epoch:   150	Loss: 0.967	Acc: 65.57%	F1: 0.444
+VS: Epoch:   150	Loss: 0.965	Acc: 65.67%	F1: 0.447
+
+TS: Epoch:   175	Loss: 0.967	Acc: 67.65%	F1: 0.446
+VS: Epoch:   175	Loss: 0.965	Acc: 67.77%	F1: 0.450
+
+TS: Epoch:   200	Loss: 0.966	Acc: 67.45%	F1: 0.446
+VS: Epoch:   200	Loss: 0.965	Acc: 67.65%	F1: 0.451
+
+TS: Epoch:   225	Loss: 0.966	Acc: 67.55%	F1: 0.446
+VS: Epoch:   225	Loss: 0.966	Acc: 67.74%	F1: 0.451
+
+TS: Epoch:   250	Loss: 0.965	Acc: 65.67%	F1: 0.445
+VS: Epoch:   250	Loss: 0.966	Acc: 65.68%	F1: 0.446
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   250	Loss: 0.966	Acc: 65.68%	F1: 0.446
+
+Test Set:	Loss: 0.968	Acc: 65.12%	F1: 0.437
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.070	Acc: 61.34%	F1: 0.373
+VS: Epoch:     0	Loss: 1.068	Acc: 61.04%	F1: 0.371
+
+TS: Epoch:    25	Loss: 0.983	Acc: 66.61%	F1: 0.432
+VS: Epoch:    25	Loss: 0.983	Acc: 66.88%	F1: 0.436
+
+TS: Epoch:    50	Loss: 0.976	Acc: 66.89%	F1: 0.437
+VS: Epoch:    50	Loss: 0.977	Acc: 66.90%	F1: 0.436
+
+TS: Epoch:    75	Loss: 0.971	Acc: 66.86%	F1: 0.440
+VS: Epoch:    75	Loss: 0.974	Acc: 66.82%	F1: 0.439
+
+TS: Epoch:   100	Loss: 0.969	Acc: 66.35%	F1: 0.441
+VS: Epoch:   100	Loss: 0.972	Acc: 66.42%	F1: 0.439
+
+TS: Epoch:   125	Loss: 0.967	Acc: 66.82%	F1: 0.442
+VS: Epoch:   125	Loss: 0.971	Acc: 66.94%	F1: 0.441
+
+TS: Epoch:   150	Loss: 0.968	Acc: 68.05%	F1: 0.444
+VS: Epoch:   150	Loss: 0.972	Acc: 68.11%	F1: 0.442
+
+TS: Epoch:   175	Loss: 0.967	Acc: 65.93%	F1: 0.441
+VS: Epoch:   175	Loss: 0.971	Acc: 66.07%	F1: 0.441
+
+TS: Epoch:   200	Loss: 0.966	Acc: 66.71%	F1: 0.442
+VS: Epoch:   200	Loss: 0.971	Acc: 66.82%	F1: 0.441
+
+TS: Epoch:   225	Loss: 0.966	Acc: 66.70%	F1: 0.443
+VS: Epoch:   225	Loss: 0.971	Acc: 66.87%	F1: 0.442
+
+TS: Epoch:   250	Loss: 0.967	Acc: 65.39%	F1: 0.441
+VS: Epoch:   250	Loss: 0.971	Acc: 65.42%	F1: 0.440
+
+TS: Epoch:   275	Loss: 0.966	Acc: 66.76%	F1: 0.443
+VS: Epoch:   275	Loss: 0.971	Acc: 66.81%	F1: 0.441
+
+TS: Epoch:   300	Loss: 0.966	Acc: 65.94%	F1: 0.443
+VS: Epoch:   300	Loss: 0.970	Acc: 66.11%	F1: 0.442
+
+TS: Epoch:   325	Loss: 0.966	Acc: 66.70%	F1: 0.443
+VS: Epoch:   325	Loss: 0.971	Acc: 66.72%	F1: 0.442
+
+TS: Epoch:   350	Loss: 0.965	Acc: 66.31%	F1: 0.443
+VS: Epoch:   350	Loss: 0.971	Acc: 66.44%	F1: 0.442
+
+TS: Epoch:   375	Loss: 0.965	Acc: 65.93%	F1: 0.443
+VS: Epoch:   375	Loss: 0.972	Acc: 66.03%	F1: 0.442
+
+TS: Epoch:   400	Loss: 0.965	Acc: 66.25%	F1: 0.443
+VS: Epoch:   400	Loss: 0.971	Acc: 66.29%	F1: 0.442
+
+TS: Epoch:   425	Loss: 0.967	Acc: 68.72%	F1: 0.444
+VS: Epoch:   425	Loss: 0.973	Acc: 68.93%	F1: 0.445
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   425	Loss: 0.973	Acc: 68.93%	F1: 0.445
+
+Test Set:	Loss: 0.973	Acc: 68.22%	F1: 0.436
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.080	Acc: 57.10%	F1: 0.362
+VS: Epoch:     0	Loss: 1.081	Acc: 56.47%	F1: 0.357
+
+TS: Epoch:    25	Loss: 0.983	Acc: 67.31%	F1: 0.435
+VS: Epoch:    25	Loss: 0.993	Acc: 66.56%	F1: 0.426
+
+TS: Epoch:    50	Loss: 0.976	Acc: 66.02%	F1: 0.437
+VS: Epoch:    50	Loss: 0.987	Acc: 65.30%	F1: 0.430
+
+TS: Epoch:    75	Loss: 0.971	Acc: 66.03%	F1: 0.439
+VS: Epoch:    75	Loss: 0.984	Acc: 65.18%	F1: 0.431
+
+TS: Epoch:   100	Loss: 0.968	Acc: 65.65%	F1: 0.441
+VS: Epoch:   100	Loss: 0.982	Acc: 64.84%	F1: 0.433
+
+TS: Epoch:   125	Loss: 0.967	Acc: 65.90%	F1: 0.441
+VS: Epoch:   125	Loss: 0.982	Acc: 65.06%	F1: 0.433
+
+TS: Epoch:   150	Loss: 0.965	Acc: 66.56%	F1: 0.443
+VS: Epoch:   150	Loss: 0.983	Acc: 65.65%	F1: 0.431
+
+TS: Epoch:   175	Loss: 0.965	Acc: 64.71%	F1: 0.441
+VS: Epoch:   175	Loss: 0.983	Acc: 63.72%	F1: 0.431
+
+TS: Epoch:   200	Loss: 0.964	Acc: 65.46%	F1: 0.444
+VS: Epoch:   200	Loss: 0.982	Acc: 64.43%	F1: 0.434
+
+TS: Epoch:   225	Loss: 0.967	Acc: 62.64%	F1: 0.439
+VS: Epoch:   225	Loss: 0.985	Acc: 61.50%	F1: 0.429
+
+TS: Epoch:   250	Loss: 0.963	Acc: 65.12%	F1: 0.444
+VS: Epoch:   250	Loss: 0.982	Acc: 64.03%	F1: 0.433
+
+TS: Epoch:   275	Loss: 0.963	Acc: 64.41%	F1: 0.443
+VS: Epoch:   275	Loss: 0.983	Acc: 63.28%	F1: 0.431
+
+TS: Epoch:   300	Loss: 0.962	Acc: 64.72%	F1: 0.444
+VS: Epoch:   300	Loss: 0.982	Acc: 63.71%	F1: 0.433
+
+TS: Epoch:   325	Loss: 0.963	Acc: 65.02%	F1: 0.444
+VS: Epoch:   325	Loss: 0.984	Acc: 63.95%	F1: 0.433
+
+TS: Epoch:   350	Loss: 0.961	Acc: 68.62%	F1: 0.450
+VS: Epoch:   350	Loss: 0.985	Acc: 67.71%	F1: 0.437
+
+TS: Epoch:   375	Loss: 0.961	Acc: 68.02%	F1: 0.449
+VS: Epoch:   375	Loss: 0.984	Acc: 67.12%	F1: 0.437
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   375	Loss: 0.984	Acc: 67.12%	F1: 0.437
+
+Test Set:	Loss: 0.972	Acc: 67.38%	F1: 0.440
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.119	Acc: 80.20%	F1: nan
+VS: Epoch:     0	Loss: 1.118	Acc: 80.20%	F1: nan
+
+TS: Epoch:    25	Loss: 0.983	Acc: 67.50%	F1: 0.432
+VS: Epoch:    25	Loss: 0.985	Acc: 67.44%	F1: 0.433
+
+TS: Epoch:    50	Loss: 0.973	Acc: 66.87%	F1: 0.440
+VS: Epoch:    50	Loss: 0.977	Acc: 66.63%	F1: 0.438
+
+TS: Epoch:    75	Loss: 0.969	Acc: 65.45%	F1: 0.442
+VS: Epoch:    75	Loss: 0.973	Acc: 65.08%	F1: 0.438
+
+TS: Epoch:   100	Loss: 0.966	Acc: 67.15%	F1: 0.444
+VS: Epoch:   100	Loss: 0.972	Acc: 66.89%	F1: 0.443
+
+TS: Epoch:   125	Loss: 0.965	Acc: 66.87%	F1: 0.446
+VS: Epoch:   125	Loss: 0.971	Acc: 66.49%	F1: 0.442
+
+TS: Epoch:   150	Loss: 0.965	Acc: 64.56%	F1: 0.443
+VS: Epoch:   150	Loss: 0.971	Acc: 63.85%	F1: 0.436
+
+TS: Epoch:   175	Loss: 0.963	Acc: 65.41%	F1: 0.444
+VS: Epoch:   175	Loss: 0.971	Acc: 64.84%	F1: 0.438
+
+TS: Epoch:   200	Loss: 0.962	Acc: 65.42%	F1: 0.445
+VS: Epoch:   200	Loss: 0.972	Acc: 64.82%	F1: 0.440
+
+TS: Epoch:   225	Loss: 0.963	Acc: 67.53%	F1: 0.447
+VS: Epoch:   225	Loss: 0.974	Acc: 67.08%	F1: 0.444
+
+TS: Epoch:   250	Loss: 0.961	Acc: 65.79%	F1: 0.446
+VS: Epoch:   250	Loss: 0.973	Acc: 65.20%	F1: 0.441
+
+TS: Epoch:   275	Loss: 0.962	Acc: 67.20%	F1: 0.448
+VS: Epoch:   275	Loss: 0.974	Acc: 66.71%	F1: 0.444
+
+TS: Epoch:   300	Loss: 0.961	Acc: 67.10%	F1: 0.447
+VS: Epoch:   300	Loss: 0.974	Acc: 66.67%	F1: 0.444
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   300	Loss: 0.974	Acc: 66.67%	F1: 0.444
+
+Test Set:	Loss: 0.979	Acc: 66.40%	F1: 0.439
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.065	Acc: 76.50%	F1: 0.341
+VS: Epoch:     0	Loss: 1.070	Acc: 76.16%	F1: 0.339
+
+TS: Epoch:    25	Loss: 0.981	Acc: 67.68%	F1: 0.435
+VS: Epoch:    25	Loss: 0.990	Acc: 67.02%	F1: 0.430
+
+TS: Epoch:    50	Loss: 0.971	Acc: 66.26%	F1: 0.440
+VS: Epoch:    50	Loss: 0.983	Acc: 65.48%	F1: 0.432
+
+TS: Epoch:    75	Loss: 0.966	Acc: 66.66%	F1: 0.443
+VS: Epoch:    75	Loss: 0.980	Acc: 65.96%	F1: 0.435
+
+TS: Epoch:   100	Loss: 0.965	Acc: 68.33%	F1: 0.447
+VS: Epoch:   100	Loss: 0.981	Acc: 67.58%	F1: 0.436
+
+TS: Epoch:   125	Loss: 0.965	Acc: 69.05%	F1: 0.448
+VS: Epoch:   125	Loss: 0.981	Acc: 68.27%	F1: 0.436
+
+TS: Epoch:   150	Loss: 0.964	Acc: 68.50%	F1: 0.449
+VS: Epoch:   150	Loss: 0.981	Acc: 67.66%	F1: 0.436
+
+TS: Epoch:   175	Loss: 0.963	Acc: 64.41%	F1: 0.443
+VS: Epoch:   175	Loss: 0.979	Acc: 63.65%	F1: 0.434
+
+TS: Epoch:   200	Loss: 0.961	Acc: 65.87%	F1: 0.447
+VS: Epoch:   200	Loss: 0.978	Acc: 64.96%	F1: 0.434
+
+TS: Epoch:   225	Loss: 0.961	Acc: 66.46%	F1: 0.448
+VS: Epoch:   225	Loss: 0.978	Acc: 65.56%	F1: 0.436
+
+TS: Epoch:   250	Loss: 0.961	Acc: 68.50%	F1: 0.452
+VS: Epoch:   250	Loss: 0.979	Acc: 67.49%	F1: 0.437
+
+TS: Epoch:   275	Loss: 0.961	Acc: 68.27%	F1: 0.452
+VS: Epoch:   275	Loss: 0.979	Acc: 67.31%	F1: 0.438
+
+TS: Epoch:   300	Loss: 0.960	Acc: 66.24%	F1: 0.450
+VS: Epoch:   300	Loss: 0.978	Acc: 65.28%	F1: 0.434
+
+TS: Epoch:   325	Loss: 0.962	Acc: 65.17%	F1: 0.448
+VS: Epoch:   325	Loss: 0.979	Acc: 64.12%	F1: 0.432
+
+TS: Epoch:   350	Loss: 0.959	Acc: 67.53%	F1: 0.452
+VS: Epoch:   350	Loss: 0.979	Acc: 66.53%	F1: 0.436
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   350	Loss: 0.979	Acc: 66.53%	F1: 0.436
+
+Test Set:	Loss: 0.980	Acc: 66.62%	F1: 0.434
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.082	Acc: 44.91%	F1: 0.364
+VS: Epoch:     0	Loss: 1.084	Acc: 44.71%	F1: 0.362
+
+TS: Epoch:    25	Loss: 0.982	Acc: 66.52%	F1: 0.433
+VS: Epoch:    25	Loss: 0.996	Acc: 66.30%	F1: 0.428
+
+TS: Epoch:    50	Loss: 0.974	Acc: 65.69%	F1: 0.435
+VS: Epoch:    50	Loss: 0.987	Acc: 65.49%	F1: 0.432
+
+TS: Epoch:    75	Loss: 0.971	Acc: 67.27%	F1: 0.439
+VS: Epoch:    75	Loss: 0.984	Acc: 66.89%	F1: 0.434
+
+TS: Epoch:   100	Loss: 0.970	Acc: 63.47%	F1: 0.437
+VS: Epoch:   100	Loss: 0.982	Acc: 63.06%	F1: 0.430
+
+TS: Epoch:   125	Loss: 0.968	Acc: 68.17%	F1: 0.442
+VS: Epoch:   125	Loss: 0.981	Acc: 67.80%	F1: 0.437
+
+TS: Epoch:   150	Loss: 0.966	Acc: 67.43%	F1: 0.443
+VS: Epoch:   150	Loss: 0.980	Acc: 66.98%	F1: 0.437
+
+TS: Epoch:   175	Loss: 0.970	Acc: 62.00%	F1: 0.436
+VS: Epoch:   175	Loss: 0.983	Acc: 61.36%	F1: 0.429
+
+TS: Epoch:   200	Loss: 0.964	Acc: 66.03%	F1: 0.443
+VS: Epoch:   200	Loss: 0.980	Acc: 65.82%	F1: 0.438
+
+TS: Epoch:   225	Loss: 0.965	Acc: 64.97%	F1: 0.441
+VS: Epoch:   225	Loss: 0.981	Acc: 64.67%	F1: 0.436
+
+TS: Epoch:   250	Loss: 0.963	Acc: 65.39%	F1: 0.443
+VS: Epoch:   250	Loss: 0.980	Acc: 65.02%	F1: 0.438
+
+TS: Epoch:   275	Loss: 0.963	Acc: 65.15%	F1: 0.444
+VS: Epoch:   275	Loss: 0.979	Acc: 64.78%	F1: 0.438
+
+TS: Epoch:   300	Loss: 0.962	Acc: 66.22%	F1: 0.446
+VS: Epoch:   300	Loss: 0.981	Acc: 65.69%	F1: 0.438
+
+TS: Epoch:   325	Loss: 0.962	Acc: 66.09%	F1: 0.445
+VS: Epoch:   325	Loss: 0.980	Acc: 65.60%	F1: 0.439
+
+TS: Epoch:   350	Loss: 0.963	Acc: 65.41%	F1: 0.444
+VS: Epoch:   350	Loss: 0.979	Acc: 64.98%	F1: 0.439
+
+TS: Epoch:   375	Loss: 0.961	Acc: 65.42%	F1: 0.445
+VS: Epoch:   375	Loss: 0.980	Acc: 64.87%	F1: 0.438
+
+TS: Epoch:   400	Loss: 0.965	Acc: 68.15%	F1: 0.446
+VS: Epoch:   400	Loss: 0.983	Acc: 67.59%	F1: 0.438
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   400	Loss: 0.983	Acc: 67.59%	F1: 0.438
+
+Test Set:	Loss: 0.984	Acc: 67.35%	F1: 0.431
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.057	Acc: 67.02%	F1: 0.372
+VS: Epoch:     0	Loss: 1.059	Acc: 67.26%	F1: 0.375
+
+TS: Epoch:    25	Loss: 0.990	Acc: 65.88%	F1: 0.428
+VS: Epoch:    25	Loss: 0.989	Acc: 66.03%	F1: 0.428
+
+TS: Epoch:    50	Loss: 0.977	Acc: 66.55%	F1: 0.436
+VS: Epoch:    50	Loss: 0.979	Acc: 66.42%	F1: 0.433
+
+TS: Epoch:    75	Loss: 0.972	Acc: 66.98%	F1: 0.439
+VS: Epoch:    75	Loss: 0.977	Acc: 66.73%	F1: 0.436
+
+TS: Epoch:   100	Loss: 0.971	Acc: 65.30%	F1: 0.439
+VS: Epoch:   100	Loss: 0.976	Acc: 65.16%	F1: 0.436
+
+TS: Epoch:   125	Loss: 0.970	Acc: 65.37%	F1: 0.440
+VS: Epoch:   125	Loss: 0.976	Acc: 65.19%	F1: 0.436
+
+TS: Epoch:   150	Loss: 0.969	Acc: 64.85%	F1: 0.439
+VS: Epoch:   150	Loss: 0.975	Acc: 64.63%	F1: 0.436
+
+TS: Epoch:   175	Loss: 0.969	Acc: 65.66%	F1: 0.440
+VS: Epoch:   175	Loss: 0.975	Acc: 65.34%	F1: 0.435
+
+TS: Epoch:   200	Loss: 0.968	Acc: 66.04%	F1: 0.441
+VS: Epoch:   200	Loss: 0.976	Acc: 65.69%	F1: 0.435
+
+TS: Epoch:   225	Loss: 0.968	Acc: 66.38%	F1: 0.441
+VS: Epoch:   225	Loss: 0.976	Acc: 66.02%	F1: 0.435
+
+TS: Epoch:   250	Loss: 0.967	Acc: 65.83%	F1: 0.441
+VS: Epoch:   250	Loss: 0.975	Acc: 65.57%	F1: 0.436
+
+TS: Epoch:   275	Loss: 0.967	Acc: 66.34%	F1: 0.442
+VS: Epoch:   275	Loss: 0.975	Acc: 66.18%	F1: 0.437
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   275	Loss: 0.975	Acc: 66.18%	F1: 0.437
+
+Test Set:	Loss: 0.959	Acc: 66.70%	F1: 0.449
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.072	Acc: 68.39%	F1: 0.380
+VS: Epoch:     0	Loss: 1.072	Acc: 68.34%	F1: 0.383
+
+TS: Epoch:    25	Loss: 0.989	Acc: 66.42%	F1: 0.431
+VS: Epoch:    25	Loss: 0.991	Acc: 66.18%	F1: 0.432
+
+TS: Epoch:    50	Loss: 0.983	Acc: 68.39%	F1: 0.433
+VS: Epoch:    50	Loss: 0.985	Acc: 68.14%	F1: 0.434
+
+TS: Epoch:    75	Loss: 0.980	Acc: 66.30%	F1: 0.436
+VS: Epoch:    75	Loss: 0.983	Acc: 65.92%	F1: 0.434
+
+TS: Epoch:   100	Loss: 0.976	Acc: 66.31%	F1: 0.435
+VS: Epoch:   100	Loss: 0.981	Acc: 65.92%	F1: 0.435
+
+TS: Epoch:   125	Loss: 0.974	Acc: 65.22%	F1: 0.436
+VS: Epoch:   125	Loss: 0.979	Acc: 64.64%	F1: 0.433
+
+TS: Epoch:   150	Loss: 0.972	Acc: 64.35%	F1: 0.438
+VS: Epoch:   150	Loss: 0.977	Acc: 63.77%	F1: 0.435
+
+TS: Epoch:   175	Loss: 0.970	Acc: 65.29%	F1: 0.439
+VS: Epoch:   175	Loss: 0.976	Acc: 64.79%	F1: 0.437
+
+TS: Epoch:   200	Loss: 0.970	Acc: 66.28%	F1: 0.441
+VS: Epoch:   200	Loss: 0.976	Acc: 65.85%	F1: 0.441
+
+TS: Epoch:   225	Loss: 0.969	Acc: 65.55%	F1: 0.440
+VS: Epoch:   225	Loss: 0.976	Acc: 65.04%	F1: 0.438
+
+TS: Epoch:   250	Loss: 0.971	Acc: 63.41%	F1: 0.438
+VS: Epoch:   250	Loss: 0.979	Acc: 62.85%	F1: 0.434
+
+TS: Epoch:   275	Loss: 0.969	Acc: 65.43%	F1: 0.441
+VS: Epoch:   275	Loss: 0.976	Acc: 64.79%	F1: 0.438
+
+TS: Epoch:   300	Loss: 0.980	Acc: 71.62%	F1: 0.442
+VS: Epoch:   300	Loss: 0.986	Acc: 71.31%	F1: 0.442
+
+TS: Epoch:   325	Loss: 0.968	Acc: 66.50%	F1: 0.441
+VS: Epoch:   325	Loss: 0.975	Acc: 65.94%	F1: 0.440
+
+TS: Epoch:   350	Loss: 0.967	Acc: 65.27%	F1: 0.440
+VS: Epoch:   350	Loss: 0.975	Acc: 64.58%	F1: 0.437
+
+TS: Epoch:   375	Loss: 0.968	Acc: 68.57%	F1: 0.444
+VS: Epoch:   375	Loss: 0.976	Acc: 68.09%	F1: 0.444
+
+TS: Epoch:   400	Loss: 0.967	Acc: 64.53%	F1: 0.439
+VS: Epoch:   400	Loss: 0.975	Acc: 63.89%	F1: 0.438
+
+TS: Epoch:   425	Loss: 0.968	Acc: 68.68%	F1: 0.446
+VS: Epoch:   425	Loss: 0.974	Acc: 68.03%	F1: 0.443
+
+TS: Epoch:   450	Loss: 0.966	Acc: 65.63%	F1: 0.443
+VS: Epoch:   450	Loss: 0.974	Acc: 64.93%	F1: 0.440
+
+TS: Epoch:   475	Loss: 0.967	Acc: 64.34%	F1: 0.441
+VS: Epoch:   475	Loss: 0.975	Acc: 63.66%	F1: 0.439
+
+TS: Epoch:   500	Loss: 0.966	Acc: 67.60%	F1: 0.446
+VS: Epoch:   500	Loss: 0.974	Acc: 66.96%	F1: 0.444
+
+Final VS: Epoch:   500	Loss: 0.974	Acc: 66.96%	F1: 0.444
+
+Test Set:	Loss: 0.961	Acc: 68.05%	F1: 0.450
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.099	Acc: 25.18%	F1: 0.338
+VS: Epoch:     0	Loss: 1.099	Acc: 24.95%	F1: 0.337
+
+TS: Epoch:    25	Loss: 0.986	Acc: 67.31%	F1: 0.433
+VS: Epoch:    25	Loss: 0.986	Acc: 67.15%	F1: 0.430
+
+TS: Epoch:    50	Loss: 0.979	Acc: 66.65%	F1: 0.435
+VS: Epoch:    50	Loss: 0.980	Acc: 66.57%	F1: 0.433
+
+TS: Epoch:    75	Loss: 0.972	Acc: 66.84%	F1: 0.440
+VS: Epoch:    75	Loss: 0.975	Acc: 66.49%	F1: 0.436
+
+TS: Epoch:   100	Loss: 0.971	Acc: 63.44%	F1: 0.436
+VS: Epoch:   100	Loss: 0.976	Acc: 63.07%	F1: 0.433
+
+TS: Epoch:   125	Loss: 0.967	Acc: 67.01%	F1: 0.441
+VS: Epoch:   125	Loss: 0.973	Acc: 66.96%	F1: 0.441
+
+TS: Epoch:   150	Loss: 0.966	Acc: 67.14%	F1: 0.442
+VS: Epoch:   150	Loss: 0.973	Acc: 66.97%	F1: 0.441
+
+TS: Epoch:   175	Loss: 0.966	Acc: 67.71%	F1: 0.443
+VS: Epoch:   175	Loss: 0.974	Acc: 67.33%	F1: 0.438
+
+TS: Epoch:   200	Loss: 0.966	Acc: 67.63%	F1: 0.443
+VS: Epoch:   200	Loss: 0.974	Acc: 67.30%	F1: 0.438
+
+TS: Epoch:   225	Loss: 0.966	Acc: 68.07%	F1: 0.444
+VS: Epoch:   225	Loss: 0.974	Acc: 67.71%	F1: 0.438
+
+TS: Epoch:   250	Loss: 0.965	Acc: 67.57%	F1: 0.444
+VS: Epoch:   250	Loss: 0.974	Acc: 67.22%	F1: 0.439
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   250	Loss: 0.974	Acc: 67.22%	F1: 0.439
+
+Test Set:	Loss: 0.979	Acc: 67.06%	F1: 0.435
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.095	Acc: 71.06%	F1: 0.320
+VS: Epoch:     0	Loss: 1.096	Acc: 71.31%	F1: 0.324
+
+TS: Epoch:    25	Loss: 0.985	Acc: 65.44%	F1: 0.433
+VS: Epoch:    25	Loss: 0.989	Acc: 65.24%	F1: 0.428
+
+TS: Epoch:    50	Loss: 0.978	Acc: 66.66%	F1: 0.437
+VS: Epoch:    50	Loss: 0.984	Acc: 66.48%	F1: 0.434
+
+TS: Epoch:    75	Loss: 0.974	Acc: 65.15%	F1: 0.438
+VS: Epoch:    75	Loss: 0.982	Acc: 64.66%	F1: 0.431
+
+TS: Epoch:   100	Loss: 0.971	Acc: 65.58%	F1: 0.440
+VS: Epoch:   100	Loss: 0.980	Acc: 65.29%	F1: 0.434
+
+TS: Epoch:   125	Loss: 0.971	Acc: 64.44%	F1: 0.438
+VS: Epoch:   125	Loss: 0.980	Acc: 64.06%	F1: 0.432
+
+TS: Epoch:   150	Loss: 0.970	Acc: 65.49%	F1: 0.440
+VS: Epoch:   150	Loss: 0.979	Acc: 65.24%	F1: 0.435
+
+TS: Epoch:   175	Loss: 0.969	Acc: 66.86%	F1: 0.442
+VS: Epoch:   175	Loss: 0.979	Acc: 66.75%	F1: 0.439
+
+TS: Epoch:   200	Loss: 0.969	Acc: 67.53%	F1: 0.442
+VS: Epoch:   200	Loss: 0.979	Acc: 67.19%	F1: 0.437
+
+TS: Epoch:   225	Loss: 0.969	Acc: 65.34%	F1: 0.440
+VS: Epoch:   225	Loss: 0.979	Acc: 65.14%	F1: 0.436
+
+TS: Epoch:   250	Loss: 0.968	Acc: 66.59%	F1: 0.442
+VS: Epoch:   250	Loss: 0.979	Acc: 66.36%	F1: 0.437
+
+TS: Epoch:   275	Loss: 0.968	Acc: 67.73%	F1: 0.443
+VS: Epoch:   275	Loss: 0.979	Acc: 67.45%	F1: 0.438
+
+TS: Epoch:   300	Loss: 0.967	Acc: 67.44%	F1: 0.443
+VS: Epoch:   300	Loss: 0.978	Acc: 67.19%	F1: 0.438
+
+TS: Epoch:   325	Loss: 0.967	Acc: 65.88%	F1: 0.441
+VS: Epoch:   325	Loss: 0.978	Acc: 65.54%	F1: 0.435
+
+TS: Epoch:   350	Loss: 0.967	Acc: 65.98%	F1: 0.441
+VS: Epoch:   350	Loss: 0.978	Acc: 65.65%	F1: 0.436
+
+TS: Epoch:   375	Loss: 0.968	Acc: 68.63%	F1: 0.444
+VS: Epoch:   375	Loss: 0.979	Acc: 68.18%	F1: 0.437
+
+TS: Epoch:   400	Loss: 0.966	Acc: 65.82%	F1: 0.441
+VS: Epoch:   400	Loss: 0.977	Acc: 65.44%	F1: 0.435
+
+TS: Epoch:   425	Loss: 0.966	Acc: 66.21%	F1: 0.442
+VS: Epoch:   425	Loss: 0.978	Acc: 65.75%	F1: 0.435
+
+TS: Epoch:   450	Loss: 0.966	Acc: 66.04%	F1: 0.442
+VS: Epoch:   450	Loss: 0.978	Acc: 65.52%	F1: 0.434
+
+TS: Epoch:   475	Loss: 0.967	Acc: 68.17%	F1: 0.443
+VS: Epoch:   475	Loss: 0.978	Acc: 67.86%	F1: 0.438
+
+TS: Epoch:   500	Loss: 0.966	Acc: 65.67%	F1: 0.441
+VS: Epoch:   500	Loss: 0.978	Acc: 65.22%	F1: 0.435
+
+Final VS: Epoch:   500	Loss: 0.978	Acc: 65.22%	F1: 0.435
+
+Test Set:	Loss: 0.974	Acc: 65.36%	F1: 0.440
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.061	Acc: 65.04%	F1: 0.370
+VS: Epoch:     0	Loss: 1.065	Acc: 64.46%	F1: 0.362
+
+TS: Epoch:    25	Loss: 0.988	Acc: 61.36%	F1: 0.426
+VS: Epoch:    25	Loss: 0.992	Acc: 61.01%	F1: 0.421
+
+TS: Epoch:    50	Loss: 0.976	Acc: 66.40%	F1: 0.438
+VS: Epoch:    50	Loss: 0.982	Acc: 66.30%	F1: 0.436
+
+TS: Epoch:    75	Loss: 0.970	Acc: 66.20%	F1: 0.441
+VS: Epoch:    75	Loss: 0.976	Acc: 66.14%	F1: 0.439
+
+TS: Epoch:   100	Loss: 0.967	Acc: 66.76%	F1: 0.443
+VS: Epoch:   100	Loss: 0.975	Acc: 66.64%	F1: 0.440
+
+TS: Epoch:   125	Loss: 0.965	Acc: 67.08%	F1: 0.445
+VS: Epoch:   125	Loss: 0.975	Acc: 66.78%	F1: 0.439
+
+TS: Epoch:   150	Loss: 0.965	Acc: 67.90%	F1: 0.446
+VS: Epoch:   150	Loss: 0.975	Acc: 67.61%	F1: 0.441
+
+TS: Epoch:   175	Loss: 0.964	Acc: 67.86%	F1: 0.446
+VS: Epoch:   175	Loss: 0.974	Acc: 67.62%	F1: 0.442
+
+TS: Epoch:   200	Loss: 0.963	Acc: 66.82%	F1: 0.446
+VS: Epoch:   200	Loss: 0.973	Acc: 66.65%	F1: 0.441
+
+TS: Epoch:   225	Loss: 0.963	Acc: 67.09%	F1: 0.446
+VS: Epoch:   225	Loss: 0.973	Acc: 66.89%	F1: 0.442
+
+TS: Epoch:   250	Loss: 0.963	Acc: 68.14%	F1: 0.447
+VS: Epoch:   250	Loss: 0.974	Acc: 68.02%	F1: 0.443
+
+TS: Epoch:   275	Loss: 0.962	Acc: 66.84%	F1: 0.446
+VS: Epoch:   275	Loss: 0.973	Acc: 66.56%	F1: 0.441
+
+TS: Epoch:   300	Loss: 0.962	Acc: 66.07%	F1: 0.445
+VS: Epoch:   300	Loss: 0.973	Acc: 65.65%	F1: 0.439
+
+TS: Epoch:   325	Loss: 0.963	Acc: 65.19%	F1: 0.445
+VS: Epoch:   325	Loss: 0.974	Acc: 64.80%	F1: 0.438
+
+TS: Epoch:   350	Loss: 0.963	Acc: 65.15%	F1: 0.444
+VS: Epoch:   350	Loss: 0.974	Acc: 64.68%	F1: 0.437
+
+TS: Epoch:   375	Loss: 0.962	Acc: 65.53%	F1: 0.445
+VS: Epoch:   375	Loss: 0.973	Acc: 65.04%	F1: 0.438
+
+TS: Epoch:   400	Loss: 0.962	Acc: 66.14%	F1: 0.446
+VS: Epoch:   400	Loss: 0.973	Acc: 65.71%	F1: 0.439
+
+TS: Epoch:   425	Loss: 0.962	Acc: 66.71%	F1: 0.447
+VS: Epoch:   425	Loss: 0.973	Acc: 66.27%	F1: 0.441
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   425	Loss: 0.973	Acc: 66.27%	F1: 0.441
+
+Test Set:	Loss: 0.973	Acc: 66.79%	F1: 0.444
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.090	Acc: 71.70%	F1: 0.250
+VS: Epoch:     0	Loss: 1.092	Acc: 71.38%	F1: 0.246
+
+TS: Epoch:    25	Loss: 0.989	Acc: 66.84%	F1: 0.429
+VS: Epoch:    25	Loss: 0.988	Acc: 67.05%	F1: 0.431
+
+TS: Epoch:    50	Loss: 0.981	Acc: 66.90%	F1: 0.434
+VS: Epoch:    50	Loss: 0.981	Acc: 66.92%	F1: 0.433
+
+TS: Epoch:    75	Loss: 0.976	Acc: 66.61%	F1: 0.438
+VS: Epoch:    75	Loss: 0.975	Acc: 66.73%	F1: 0.437
+
+TS: Epoch:   100	Loss: 0.974	Acc: 64.76%	F1: 0.437
+VS: Epoch:   100	Loss: 0.974	Acc: 64.72%	F1: 0.435
+
+TS: Epoch:   125	Loss: 0.971	Acc: 66.10%	F1: 0.440
+VS: Epoch:   125	Loss: 0.972	Acc: 65.97%	F1: 0.436
+
+TS: Epoch:   150	Loss: 0.970	Acc: 67.07%	F1: 0.441
+VS: Epoch:   150	Loss: 0.971	Acc: 66.93%	F1: 0.438
+
+TS: Epoch:   175	Loss: 0.969	Acc: 66.66%	F1: 0.442
+VS: Epoch:   175	Loss: 0.971	Acc: 66.42%	F1: 0.438
+
+TS: Epoch:   200	Loss: 0.969	Acc: 67.81%	F1: 0.444
+VS: Epoch:   200	Loss: 0.972	Acc: 67.55%	F1: 0.438
+
+TS: Epoch:   225	Loss: 0.968	Acc: 64.87%	F1: 0.441
+VS: Epoch:   225	Loss: 0.972	Acc: 64.65%	F1: 0.438
+
+TS: Epoch:   250	Loss: 0.966	Acc: 67.15%	F1: 0.445
+VS: Epoch:   250	Loss: 0.971	Acc: 66.72%	F1: 0.439
+
+TS: Epoch:   275	Loss: 0.967	Acc: 67.82%	F1: 0.445
+VS: Epoch:   275	Loss: 0.972	Acc: 67.28%	F1: 0.437
+
+TS: Epoch:   300	Loss: 0.965	Acc: 66.39%	F1: 0.444
+VS: Epoch:   300	Loss: 0.971	Acc: 65.92%	F1: 0.437
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   300	Loss: 0.971	Acc: 65.92%	F1: 0.437
+
+Test Set:	Loss: 0.973	Acc: 66.36%	F1: 0.442
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.105	Acc: 24.17%	F1: 0.331
+VS: Epoch:     0	Loss: 1.105	Acc: 24.15%	F1: 0.331
+
+TS: Epoch:    25	Loss: 0.986	Acc: 66.52%	F1: 0.431
+VS: Epoch:    25	Loss: 0.987	Acc: 66.88%	F1: 0.432
+
+TS: Epoch:    50	Loss: 0.981	Acc: 66.30%	F1: 0.435
+VS: Epoch:    50	Loss: 0.984	Acc: 66.62%	F1: 0.435
+
+TS: Epoch:    75	Loss: 0.975	Acc: 63.09%	F1: 0.437
+VS: Epoch:    75	Loss: 0.979	Acc: 63.00%	F1: 0.433
+
+TS: Epoch:   100	Loss: 0.967	Acc: 66.90%	F1: 0.445
+VS: Epoch:   100	Loss: 0.972	Acc: 66.99%	F1: 0.444
+
+TS: Epoch:   125	Loss: 0.966	Acc: 67.80%	F1: 0.447
+VS: Epoch:   125	Loss: 0.972	Acc: 67.97%	F1: 0.446
+
+TS: Epoch:   150	Loss: 0.965	Acc: 66.44%	F1: 0.447
+VS: Epoch:   150	Loss: 0.971	Acc: 66.64%	F1: 0.445
+
+TS: Epoch:   175	Loss: 0.964	Acc: 65.63%	F1: 0.445
+VS: Epoch:   175	Loss: 0.970	Acc: 65.72%	F1: 0.443
+
+TS: Epoch:   200	Loss: 0.964	Acc: 66.39%	F1: 0.447
+VS: Epoch:   200	Loss: 0.970	Acc: 66.57%	F1: 0.445
+
+TS: Epoch:   225	Loss: 0.964	Acc: 64.71%	F1: 0.444
+VS: Epoch:   225	Loss: 0.970	Acc: 64.95%	F1: 0.443
+
+TS: Epoch:   250	Loss: 0.963	Acc: 66.64%	F1: 0.447
+VS: Epoch:   250	Loss: 0.970	Acc: 66.77%	F1: 0.446
+
+TS: Epoch:   275	Loss: 0.963	Acc: 66.30%	F1: 0.447
+VS: Epoch:   275	Loss: 0.970	Acc: 66.43%	F1: 0.444
+
+TS: Epoch:   300	Loss: 0.964	Acc: 67.66%	F1: 0.449
+VS: Epoch:   300	Loss: 0.971	Acc: 67.83%	F1: 0.447
+
+TS: Epoch:   325	Loss: 0.964	Acc: 64.56%	F1: 0.444
+VS: Epoch:   325	Loss: 0.971	Acc: 64.68%	F1: 0.441
+
+TS: Epoch:   350	Loss: 0.964	Acc: 68.09%	F1: 0.450
+VS: Epoch:   350	Loss: 0.972	Acc: 68.24%	F1: 0.448
+
+TS: Epoch:   375	Loss: 0.963	Acc: 65.79%	F1: 0.446
+VS: Epoch:   375	Loss: 0.970	Acc: 65.80%	F1: 0.443
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   375	Loss: 0.970	Acc: 65.80%	F1: 0.443
+
+Test Set:	Loss: 0.975	Acc: 65.09%	F1: 0.438
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.099	Acc: 19.80%	F1: 0.331
+VS: Epoch:     0	Loss: 1.099	Acc: 19.80%	F1: 0.331
+
+TS: Epoch:    25	Loss: 0.989	Acc: 63.44%	F1: 0.433
+VS: Epoch:    25	Loss: 0.987	Acc: 63.45%	F1: 0.432
+
+TS: Epoch:    50	Loss: 0.974	Acc: 68.06%	F1: 0.442
+VS: Epoch:    50	Loss: 0.974	Acc: 68.18%	F1: 0.439
+
+TS: Epoch:    75	Loss: 0.972	Acc: 64.68%	F1: 0.438
+VS: Epoch:    75	Loss: 0.971	Acc: 64.59%	F1: 0.434
+
+TS: Epoch:   100	Loss: 0.976	Acc: 71.30%	F1: 0.442
+VS: Epoch:   100	Loss: 0.976	Acc: 71.41%	F1: 0.441
+
+TS: Epoch:   125	Loss: 0.968	Acc: 65.75%	F1: 0.441
+VS: Epoch:   125	Loss: 0.967	Acc: 65.83%	F1: 0.439
+
+TS: Epoch:   150	Loss: 0.967	Acc: 66.52%	F1: 0.442
+VS: Epoch:   150	Loss: 0.967	Acc: 66.67%	F1: 0.440
+
+TS: Epoch:   175	Loss: 0.967	Acc: 67.82%	F1: 0.443
+VS: Epoch:   175	Loss: 0.968	Acc: 67.86%	F1: 0.440
+
+TS: Epoch:   200	Loss: 0.969	Acc: 69.13%	F1: 0.444
+VS: Epoch:   200	Loss: 0.971	Acc: 69.08%	F1: 0.439
+
+TS: Epoch:   225	Loss: 0.969	Acc: 63.59%	F1: 0.439
+VS: Epoch:   225	Loss: 0.969	Acc: 63.52%	F1: 0.437
+
+TS: Epoch:   250	Loss: 0.965	Acc: 66.82%	F1: 0.443
+VS: Epoch:   250	Loss: 0.967	Acc: 66.79%	F1: 0.438
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   250	Loss: 0.967	Acc: 66.79%	F1: 0.438
+
+Test Set:	Loss: 0.967	Acc: 66.99%	F1: 0.444
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.152	Acc: 80.20%	F1: nan
+VS: Epoch:     0	Loss: 1.151	Acc: 80.20%	F1: nan
+
+TS: Epoch:    25	Loss: 0.992	Acc: 64.21%	F1: 0.425
+VS: Epoch:    25	Loss: 0.999	Acc: 63.86%	F1: 0.420
+
+TS: Epoch:    50	Loss: 0.984	Acc: 66.03%	F1: 0.430
+VS: Epoch:    50	Loss: 0.992	Acc: 65.88%	F1: 0.427
+
+TS: Epoch:    75	Loss: 0.975	Acc: 67.95%	F1: 0.439
+VS: Epoch:    75	Loss: 0.980	Acc: 67.89%	F1: 0.438
+
+TS: Epoch:   100	Loss: 0.971	Acc: 68.03%	F1: 0.441
+VS: Epoch:   100	Loss: 0.977	Acc: 67.93%	F1: 0.439
+
+TS: Epoch:   125	Loss: 0.969	Acc: 65.22%	F1: 0.442
+VS: Epoch:   125	Loss: 0.976	Acc: 65.05%	F1: 0.439
+
+TS: Epoch:   150	Loss: 0.968	Acc: 65.91%	F1: 0.443
+VS: Epoch:   150	Loss: 0.976	Acc: 65.66%	F1: 0.439
+
+TS: Epoch:   175	Loss: 0.968	Acc: 66.70%	F1: 0.444
+VS: Epoch:   175	Loss: 0.977	Acc: 66.32%	F1: 0.439
+
+TS: Epoch:   200	Loss: 0.968	Acc: 67.99%	F1: 0.444
+VS: Epoch:   200	Loss: 0.978	Acc: 67.66%	F1: 0.440
+
+TS: Epoch:   225	Loss: 0.966	Acc: 65.45%	F1: 0.443
+VS: Epoch:   225	Loss: 0.977	Acc: 65.17%	F1: 0.439
+
+TS: Epoch:   250	Loss: 0.966	Acc: 66.16%	F1: 0.444
+VS: Epoch:   250	Loss: 0.977	Acc: 65.75%	F1: 0.439
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   250	Loss: 0.977	Acc: 65.75%	F1: 0.439
+
+Test Set:	Loss: 0.964	Acc: 66.49%	F1: 0.446
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.059	Acc: 60.03%	F1: 0.386
+VS: Epoch:     0	Loss: 1.059	Acc: 59.90%	F1: 0.389
+
+TS: Epoch:    25	Loss: 0.994	Acc: 62.86%	F1: 0.425
+VS: Epoch:    25	Loss: 0.994	Acc: 62.84%	F1: 0.423
+
+TS: Epoch:    50	Loss: 0.982	Acc: 67.73%	F1: 0.434
+VS: Epoch:    50	Loss: 0.984	Acc: 67.50%	F1: 0.429
+
+TS: Epoch:    75	Loss: 0.977	Acc: 66.80%	F1: 0.436
+VS: Epoch:    75	Loss: 0.979	Acc: 66.59%	F1: 0.432
+
+TS: Epoch:   100	Loss: 0.974	Acc: 66.25%	F1: 0.438
+VS: Epoch:   100	Loss: 0.976	Acc: 66.16%	F1: 0.434
+
+TS: Epoch:   125	Loss: 0.972	Acc: 66.24%	F1: 0.439
+VS: Epoch:   125	Loss: 0.976	Acc: 66.11%	F1: 0.436
+
+TS: Epoch:   150	Loss: 0.972	Acc: 65.09%	F1: 0.438
+VS: Epoch:   150	Loss: 0.976	Acc: 64.97%	F1: 0.435
+
+TS: Epoch:   175	Loss: 0.970	Acc: 66.95%	F1: 0.442
+VS: Epoch:   175	Loss: 0.975	Acc: 66.79%	F1: 0.439
+
+TS: Epoch:   200	Loss: 0.969	Acc: 66.63%	F1: 0.441
+VS: Epoch:   200	Loss: 0.974	Acc: 66.45%	F1: 0.439
+
+TS: Epoch:   225	Loss: 0.969	Acc: 66.87%	F1: 0.442
+VS: Epoch:   225	Loss: 0.974	Acc: 66.67%	F1: 0.438
+
+TS: Epoch:   250	Loss: 0.968	Acc: 67.01%	F1: 0.442
+VS: Epoch:   250	Loss: 0.974	Acc: 66.85%	F1: 0.439
+
+TS: Epoch:   275	Loss: 0.968	Acc: 66.86%	F1: 0.443
+VS: Epoch:   275	Loss: 0.974	Acc: 66.55%	F1: 0.438
+
+TS: Epoch:   300	Loss: 0.968	Acc: 66.05%	F1: 0.443
+VS: Epoch:   300	Loss: 0.974	Acc: 65.73%	F1: 0.437
+
+TS: Epoch:   325	Loss: 0.967	Acc: 67.36%	F1: 0.445
+VS: Epoch:   325	Loss: 0.974	Acc: 67.02%	F1: 0.439
+
+TS: Epoch:   350	Loss: 0.966	Acc: 67.12%	F1: 0.445
+VS: Epoch:   350	Loss: 0.973	Acc: 66.84%	F1: 0.440
+
+TS: Epoch:   375	Loss: 0.966	Acc: 67.49%	F1: 0.445
+VS: Epoch:   375	Loss: 0.974	Acc: 67.20%	F1: 0.440
+
+TS: Epoch:   400	Loss: 0.966	Acc: 66.08%	F1: 0.445
+VS: Epoch:   400	Loss: 0.973	Acc: 65.87%	F1: 0.440
+
+TS: Epoch:   425	Loss: 0.967	Acc: 68.18%	F1: 0.446
+VS: Epoch:   425	Loss: 0.975	Acc: 67.86%	F1: 0.440
+
+TS: Epoch:   450	Loss: 0.966	Acc: 67.79%	F1: 0.446
+VS: Epoch:   450	Loss: 0.974	Acc: 67.56%	F1: 0.440
+
+TS: Epoch:   475	Loss: 0.965	Acc: 66.37%	F1: 0.444
+VS: Epoch:   475	Loss: 0.973	Acc: 66.10%	F1: 0.438
+
+TS: Epoch:   500	Loss: 0.967	Acc: 64.71%	F1: 0.443
+VS: Epoch:   500	Loss: 0.974	Acc: 64.58%	F1: 0.439
+
+Final VS: Epoch:   500	Loss: 0.974	Acc: 64.58%	F1: 0.439
+
+Test Set:	Loss: 0.972	Acc: 64.30%	F1: 0.437
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.099	Acc: 79.99%	F1: 0.094
+VS: Epoch:     0	Loss: 1.098	Acc: 80.01%	F1: 0.102
+
+TS: Epoch:    25	Loss: 0.984	Acc: 65.11%	F1: 0.431
+VS: Epoch:    25	Loss: 0.986	Acc: 64.73%	F1: 0.429
+
+TS: Epoch:    50	Loss: 0.975	Acc: 65.74%	F1: 0.437
+VS: Epoch:    50	Loss: 0.977	Acc: 65.41%	F1: 0.435
+
+TS: Epoch:    75	Loss: 0.971	Acc: 65.81%	F1: 0.438
+VS: Epoch:    75	Loss: 0.974	Acc: 65.56%	F1: 0.437
+
+TS: Epoch:   100	Loss: 0.972	Acc: 63.49%	F1: 0.436
+VS: Epoch:   100	Loss: 0.976	Acc: 63.30%	F1: 0.435
+
+TS: Epoch:   125	Loss: 0.968	Acc: 63.90%	F1: 0.438
+VS: Epoch:   125	Loss: 0.973	Acc: 63.62%	F1: 0.437
+
+TS: Epoch:   150	Loss: 0.966	Acc: 66.55%	F1: 0.442
+VS: Epoch:   150	Loss: 0.973	Acc: 66.14%	F1: 0.439
+
+TS: Epoch:   175	Loss: 0.967	Acc: 62.50%	F1: 0.437
+VS: Epoch:   175	Loss: 0.974	Acc: 62.00%	F1: 0.436
+
+TS: Epoch:   200	Loss: 0.966	Acc: 66.28%	F1: 0.441
+VS: Epoch:   200	Loss: 0.973	Acc: 65.82%	F1: 0.440
+
+TS: Epoch:   225	Loss: 0.964	Acc: 65.26%	F1: 0.442
+VS: Epoch:   225	Loss: 0.972	Acc: 64.66%	F1: 0.437
+
+TS: Epoch:   250	Loss: 0.967	Acc: 64.84%	F1: 0.440
+VS: Epoch:   250	Loss: 0.972	Acc: 64.44%	F1: 0.439
+
+TS: Epoch:   275	Loss: 0.965	Acc: 63.88%	F1: 0.440
+VS: Epoch:   275	Loss: 0.971	Acc: 63.48%	F1: 0.439
+
+TS: Epoch:   300	Loss: 0.964	Acc: 64.87%	F1: 0.442
+VS: Epoch:   300	Loss: 0.971	Acc: 64.44%	F1: 0.440
+
+TS: Epoch:   325	Loss: 0.963	Acc: 64.04%	F1: 0.441
+VS: Epoch:   325	Loss: 0.971	Acc: 63.67%	F1: 0.440
+
+TS: Epoch:   350	Loss: 0.964	Acc: 62.85%	F1: 0.440
+VS: Epoch:   350	Loss: 0.972	Acc: 62.37%	F1: 0.437
+
+TS: Epoch:   375	Loss: 0.964	Acc: 66.36%	F1: 0.443
+VS: Epoch:   375	Loss: 0.972	Acc: 66.04%	F1: 0.442
+
+TS: Epoch:   400	Loss: 0.963	Acc: 64.90%	F1: 0.443
+VS: Epoch:   400	Loss: 0.971	Acc: 64.47%	F1: 0.440
+
+TS: Epoch:   425	Loss: 0.962	Acc: 64.91%	F1: 0.443
+VS: Epoch:   425	Loss: 0.971	Acc: 64.56%	F1: 0.442
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   425	Loss: 0.971	Acc: 64.56%	F1: 0.442
+
+Test Set:	Loss: 0.980	Acc: 64.09%	F1: 0.432
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.105	Acc: 29.02%	F1: 0.347
+VS: Epoch:     0	Loss: 1.104	Acc: 29.17%	F1: 0.347
+
+TS: Epoch:    25	Loss: 0.986	Acc: 67.54%	F1: 0.432
+VS: Epoch:    25	Loss: 0.990	Acc: 67.63%	F1: 0.430
+
+TS: Epoch:    50	Loss: 0.977	Acc: 66.44%	F1: 0.436
+VS: Epoch:    50	Loss: 0.980	Acc: 66.31%	F1: 0.433
+
+TS: Epoch:    75	Loss: 0.971	Acc: 63.80%	F1: 0.437
+VS: Epoch:    75	Loss: 0.976	Acc: 63.82%	F1: 0.435
+
+TS: Epoch:   100	Loss: 0.969	Acc: 65.91%	F1: 0.440
+VS: Epoch:   100	Loss: 0.975	Acc: 65.91%	F1: 0.437
+
+TS: Epoch:   125	Loss: 0.968	Acc: 66.14%	F1: 0.442
+VS: Epoch:   125	Loss: 0.974	Acc: 66.17%	F1: 0.440
+
+TS: Epoch:   150	Loss: 0.967	Acc: 65.06%	F1: 0.442
+VS: Epoch:   150	Loss: 0.974	Acc: 64.89%	F1: 0.437
+
+TS: Epoch:   175	Loss: 0.966	Acc: 64.53%	F1: 0.442
+VS: Epoch:   175	Loss: 0.974	Acc: 64.44%	F1: 0.437
+
+TS: Epoch:   200	Loss: 0.965	Acc: 67.04%	F1: 0.445
+VS: Epoch:   200	Loss: 0.974	Acc: 66.96%	F1: 0.439
+
+TS: Epoch:   225	Loss: 0.964	Acc: 66.66%	F1: 0.446
+VS: Epoch:   225	Loss: 0.974	Acc: 66.35%	F1: 0.437
+
+TS: Epoch:   250	Loss: 0.964	Acc: 64.95%	F1: 0.444
+VS: Epoch:   250	Loss: 0.975	Acc: 64.54%	F1: 0.434
+
+TS: Epoch:   275	Loss: 0.964	Acc: 67.81%	F1: 0.447
+VS: Epoch:   275	Loss: 0.976	Acc: 67.42%	F1: 0.438
+
+TS: Epoch:   300	Loss: 0.966	Acc: 66.62%	F1: 0.443
+VS: Epoch:   300	Loss: 0.978	Acc: 66.26%	F1: 0.434
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   300	Loss: 0.978	Acc: 66.26%	F1: 0.434
+
+Test Set:	Loss: 0.977	Acc: 65.89%	F1: 0.437
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.091	Acc: 41.93%	F1: 0.348
+VS: Epoch:     0	Loss: 1.092	Acc: 41.42%	F1: 0.345
+
+TS: Epoch:    25	Loss: 0.985	Acc: 66.21%	F1: 0.432
+VS: Epoch:    25	Loss: 0.990	Acc: 66.12%	F1: 0.430
+
+TS: Epoch:    50	Loss: 0.973	Acc: 65.49%	F1: 0.438
+VS: Epoch:    50	Loss: 0.981	Acc: 65.46%	F1: 0.436
+
+TS: Epoch:    75	Loss: 0.970	Acc: 66.45%	F1: 0.441
+VS: Epoch:    75	Loss: 0.979	Acc: 66.49%	F1: 0.441
+
+TS: Epoch:   100	Loss: 0.969	Acc: 68.83%	F1: 0.444
+VS: Epoch:   100	Loss: 0.980	Acc: 68.78%	F1: 0.442
+
+TS: Epoch:   125	Loss: 0.968	Acc: 63.39%	F1: 0.440
+VS: Epoch:   125	Loss: 0.978	Acc: 63.31%	F1: 0.436
+
+TS: Epoch:   150	Loss: 0.967	Acc: 64.09%	F1: 0.442
+VS: Epoch:   150	Loss: 0.977	Acc: 64.11%	F1: 0.438
+
+TS: Epoch:   175	Loss: 0.966	Acc: 64.80%	F1: 0.444
+VS: Epoch:   175	Loss: 0.977	Acc: 64.79%	F1: 0.439
+
+TS: Epoch:   200	Loss: 0.964	Acc: 65.20%	F1: 0.445
+VS: Epoch:   200	Loss: 0.977	Acc: 65.11%	F1: 0.439
+
+TS: Epoch:   225	Loss: 0.964	Acc: 65.78%	F1: 0.445
+VS: Epoch:   225	Loss: 0.978	Acc: 65.74%	F1: 0.438
+
+TS: Epoch:   250	Loss: 0.966	Acc: 67.80%	F1: 0.447
+VS: Epoch:   250	Loss: 0.980	Acc: 67.70%	F1: 0.442
+
+TS: Epoch:   275	Loss: 0.964	Acc: 68.97%	F1: 0.450
+VS: Epoch:   275	Loss: 0.980	Acc: 68.75%	F1: 0.443
+
+TS: Epoch:   300	Loss: 0.967	Acc: 64.26%	F1: 0.441
+VS: Epoch:   300	Loss: 0.980	Acc: 64.22%	F1: 0.437
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   300	Loss: 0.980	Acc: 64.22%	F1: 0.437
+
+Test Set:	Loss: 0.976	Acc: 64.17%	F1: 0.439
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.084	Acc: 35.66%	F1: 0.350
+VS: Epoch:     0	Loss: 1.084	Acc: 35.69%	F1: 0.350
+
+TS: Epoch:    25	Loss: 0.984	Acc: 68.61%	F1: 0.436
+VS: Epoch:    25	Loss: 0.989	Acc: 68.12%	F1: 0.428
+
+TS: Epoch:    50	Loss: 0.975	Acc: 66.50%	F1: 0.437
+VS: Epoch:    50	Loss: 0.982	Acc: 65.94%	F1: 0.430
+
+TS: Epoch:    75	Loss: 0.971	Acc: 65.02%	F1: 0.437
+VS: Epoch:    75	Loss: 0.981	Acc: 64.73%	F1: 0.432
+
+TS: Epoch:   100	Loss: 0.969	Acc: 64.98%	F1: 0.438
+VS: Epoch:   100	Loss: 0.980	Acc: 64.56%	F1: 0.432
+
+TS: Epoch:   125	Loss: 0.968	Acc: 63.20%	F1: 0.439
+VS: Epoch:   125	Loss: 0.979	Acc: 62.75%	F1: 0.431
+
+TS: Epoch:   150	Loss: 0.966	Acc: 64.47%	F1: 0.441
+VS: Epoch:   150	Loss: 0.978	Acc: 64.13%	F1: 0.434
+
+TS: Epoch:   175	Loss: 0.966	Acc: 63.74%	F1: 0.441
+VS: Epoch:   175	Loss: 0.978	Acc: 63.47%	F1: 0.434
+
+TS: Epoch:   200	Loss: 0.966	Acc: 66.68%	F1: 0.444
+VS: Epoch:   200	Loss: 0.980	Acc: 66.30%	F1: 0.435
+
+TS: Epoch:   225	Loss: 0.965	Acc: 63.33%	F1: 0.440
+VS: Epoch:   225	Loss: 0.978	Acc: 63.13%	F1: 0.435
+
+TS: Epoch:   250	Loss: 0.966	Acc: 67.06%	F1: 0.443
+VS: Epoch:   250	Loss: 0.980	Acc: 66.76%	F1: 0.436
+
+TS: Epoch:   275	Loss: 0.964	Acc: 64.08%	F1: 0.442
+VS: Epoch:   275	Loss: 0.978	Acc: 63.83%	F1: 0.435
+
+TS: Epoch:   300	Loss: 0.964	Acc: 63.43%	F1: 0.441
+VS: Epoch:   300	Loss: 0.978	Acc: 63.04%	F1: 0.434
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   300	Loss: 0.978	Acc: 63.04%	F1: 0.434
+
+Test Set:	Loss: 0.970	Acc: 63.65%	F1: 0.442
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.081	Acc: 73.34%	F1: 0.309
+VS: Epoch:     0	Loss: 1.081	Acc: 72.71%	F1: 0.296
+
+TS: Epoch:    25	Loss: 0.985	Acc: 66.37%	F1: 0.433
+VS: Epoch:    25	Loss: 0.986	Acc: 65.95%	F1: 0.433
+
+TS: Epoch:    50	Loss: 0.978	Acc: 66.16%	F1: 0.436
+VS: Epoch:    50	Loss: 0.979	Acc: 65.81%	F1: 0.435
+
+TS: Epoch:    75	Loss: 0.973	Acc: 66.28%	F1: 0.438
+VS: Epoch:    75	Loss: 0.975	Acc: 65.92%	F1: 0.436
+
+TS: Epoch:   100	Loss: 0.969	Acc: 66.67%	F1: 0.440
+VS: Epoch:   100	Loss: 0.972	Acc: 66.27%	F1: 0.438
+
+TS: Epoch:   125	Loss: 0.966	Acc: 66.82%	F1: 0.443
+VS: Epoch:   125	Loss: 0.971	Acc: 66.32%	F1: 0.439
+
+TS: Epoch:   150	Loss: 0.965	Acc: 65.22%	F1: 0.442
+VS: Epoch:   150	Loss: 0.970	Acc: 64.72%	F1: 0.437
+
+TS: Epoch:   175	Loss: 0.967	Acc: 67.44%	F1: 0.444
+VS: Epoch:   175	Loss: 0.971	Acc: 66.90%	F1: 0.438
+
+TS: Epoch:   200	Loss: 0.964	Acc: 67.13%	F1: 0.445
+VS: Epoch:   200	Loss: 0.970	Acc: 66.52%	F1: 0.438
+
+TS: Epoch:   225	Loss: 0.964	Acc: 66.52%	F1: 0.443
+VS: Epoch:   225	Loss: 0.971	Acc: 66.06%	F1: 0.438
+
+TS: Epoch:   250	Loss: 0.963	Acc: 65.22%	F1: 0.443
+VS: Epoch:   250	Loss: 0.972	Acc: 64.75%	F1: 0.437
+
+TS: Epoch:   275	Loss: 0.963	Acc: 66.39%	F1: 0.444
+VS: Epoch:   275	Loss: 0.972	Acc: 65.85%	F1: 0.438
+
+TS: Epoch:   300	Loss: 0.963	Acc: 63.98%	F1: 0.442
+VS: Epoch:   300	Loss: 0.973	Acc: 63.33%	F1: 0.435
+
+TS: Epoch:   325	Loss: 0.962	Acc: 65.22%	F1: 0.445
+VS: Epoch:   325	Loss: 0.972	Acc: 64.54%	F1: 0.437
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   325	Loss: 0.972	Acc: 64.54%	F1: 0.437
+
+Test Set:	Loss: 0.979	Acc: 64.81%	F1: 0.435
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.106	Acc: 19.80%	F1: 0.331
+VS: Epoch:     0	Loss: 1.106	Acc: 19.80%	F1: 0.331
+
+TS: Epoch:    25	Loss: 0.989	Acc: 66.15%	F1: 0.433
+VS: Epoch:    25	Loss: 0.989	Acc: 66.20%	F1: 0.434
+
+TS: Epoch:    50	Loss: 0.975	Acc: 67.69%	F1: 0.442
+VS: Epoch:    50	Loss: 0.977	Acc: 67.63%	F1: 0.440
+
+TS: Epoch:    75	Loss: 0.972	Acc: 65.14%	F1: 0.439
+VS: Epoch:    75	Loss: 0.975	Acc: 65.02%	F1: 0.436
+
+TS: Epoch:   100	Loss: 0.970	Acc: 66.78%	F1: 0.443
+VS: Epoch:   100	Loss: 0.973	Acc: 66.72%	F1: 0.439
+
+TS: Epoch:   125	Loss: 0.972	Acc: 63.66%	F1: 0.439
+VS: Epoch:   125	Loss: 0.975	Acc: 63.60%	F1: 0.436
+
+TS: Epoch:   150	Loss: 0.969	Acc: 65.17%	F1: 0.442
+VS: Epoch:   150	Loss: 0.973	Acc: 65.12%	F1: 0.439
+
+TS: Epoch:   175	Loss: 0.967	Acc: 66.96%	F1: 0.445
+VS: Epoch:   175	Loss: 0.972	Acc: 66.94%	F1: 0.440
+
+TS: Epoch:   200	Loss: 0.968	Acc: 68.87%	F1: 0.447
+VS: Epoch:   200	Loss: 0.973	Acc: 68.87%	F1: 0.443
+
+TS: Epoch:   225	Loss: 0.966	Acc: 68.18%	F1: 0.446
+VS: Epoch:   225	Loss: 0.971	Acc: 68.18%	F1: 0.443
+
+TS: Epoch:   250	Loss: 0.966	Acc: 64.70%	F1: 0.442
+VS: Epoch:   250	Loss: 0.971	Acc: 64.66%	F1: 0.440
+
+TS: Epoch:   275	Loss: 0.966	Acc: 63.68%	F1: 0.441
+VS: Epoch:   275	Loss: 0.971	Acc: 63.67%	F1: 0.438
+
+TS: Epoch:   300	Loss: 0.965	Acc: 64.21%	F1: 0.442
+VS: Epoch:   300	Loss: 0.971	Acc: 64.28%	F1: 0.440
+
+TS: Epoch:   325	Loss: 0.964	Acc: 64.24%	F1: 0.443
+VS: Epoch:   325	Loss: 0.971	Acc: 64.14%	F1: 0.440
+
+TS: Epoch:   350	Loss: 0.964	Acc: 64.54%	F1: 0.443
+VS: Epoch:   350	Loss: 0.971	Acc: 64.52%	F1: 0.440
+
+TS: Epoch:   375	Loss: 0.964	Acc: 64.16%	F1: 0.443
+VS: Epoch:   375	Loss: 0.971	Acc: 64.19%	F1: 0.441
+
+TS: Epoch:   400	Loss: 0.963	Acc: 66.44%	F1: 0.446
+VS: Epoch:   400	Loss: 0.970	Acc: 66.29%	F1: 0.441
+
+TS: Epoch:   425	Loss: 0.963	Acc: 67.78%	F1: 0.448
+VS: Epoch:   425	Loss: 0.971	Acc: 67.60%	F1: 0.442
+
+TS: Epoch:   450	Loss: 0.964	Acc: 68.58%	F1: 0.449
+VS: Epoch:   450	Loss: 0.972	Acc: 68.32%	F1: 0.442
+
+TS: Epoch:   475	Loss: 0.967	Acc: 70.54%	F1: 0.449
+VS: Epoch:   475	Loss: 0.975	Acc: 70.36%	F1: 0.444
+
+TS: Epoch:   500	Loss: 0.963	Acc: 64.01%	F1: 0.442
+VS: Epoch:   500	Loss: 0.972	Acc: 63.93%	F1: 0.440
+
+Final VS: Epoch:   500	Loss: 0.972	Acc: 63.93%	F1: 0.440
+
+Test Set:	Loss: 0.975	Acc: 64.16%	F1: 0.440
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.099	Acc: 79.91%	F1: 0.078
+VS: Epoch:     0	Loss: 1.099	Acc: 79.91%	F1: 0.089
+
+TS: Epoch:    25	Loss: 0.988	Acc: 62.90%	F1: 0.430
+VS: Epoch:    25	Loss: 0.998	Acc: 62.52%	F1: 0.424
+
+TS: Epoch:    50	Loss: 0.980	Acc: 65.40%	F1: 0.434
+VS: Epoch:    50	Loss: 0.987	Acc: 65.27%	F1: 0.432
+
+TS: Epoch:    75	Loss: 0.974	Acc: 64.80%	F1: 0.435
+VS: Epoch:    75	Loss: 0.984	Acc: 64.43%	F1: 0.430
+
+TS: Epoch:   100	Loss: 0.973	Acc: 64.52%	F1: 0.436
+VS: Epoch:   100	Loss: 0.982	Acc: 64.01%	F1: 0.430
+
+TS: Epoch:   125	Loss: 0.973	Acc: 63.09%	F1: 0.435
+VS: Epoch:   125	Loss: 0.982	Acc: 62.46%	F1: 0.428
+
+TS: Epoch:   150	Loss: 0.970	Acc: 65.41%	F1: 0.439
+VS: Epoch:   150	Loss: 0.981	Acc: 64.86%	F1: 0.433
+
+TS: Epoch:   175	Loss: 0.970	Acc: 65.00%	F1: 0.439
+VS: Epoch:   175	Loss: 0.981	Acc: 64.47%	F1: 0.433
+
+TS: Epoch:   200	Loss: 0.967	Acc: 67.47%	F1: 0.443
+VS: Epoch:   200	Loss: 0.980	Acc: 66.93%	F1: 0.437
+
+TS: Epoch:   225	Loss: 0.968	Acc: 66.44%	F1: 0.441
+VS: Epoch:   225	Loss: 0.980	Acc: 65.88%	F1: 0.436
+
+TS: Epoch:   250	Loss: 0.966	Acc: 66.66%	F1: 0.442
+VS: Epoch:   250	Loss: 0.980	Acc: 66.11%	F1: 0.436
+
+TS: Epoch:   275	Loss: 0.969	Acc: 63.49%	F1: 0.437
+VS: Epoch:   275	Loss: 0.981	Acc: 63.02%	F1: 0.432
+
+TS: Epoch:   300	Loss: 0.965	Acc: 65.62%	F1: 0.441
+VS: Epoch:   300	Loss: 0.980	Acc: 65.04%	F1: 0.435
+
+TS: Epoch:   325	Loss: 0.968	Acc: 62.78%	F1: 0.437
+VS: Epoch:   325	Loss: 0.981	Acc: 62.11%	F1: 0.431
+
+TS: Epoch:   350	Loss: 0.964	Acc: 66.83%	F1: 0.443
+VS: Epoch:   350	Loss: 0.979	Acc: 66.36%	F1: 0.437
+
+TS: Epoch:   375	Loss: 0.964	Acc: 67.72%	F1: 0.444
+VS: Epoch:   375	Loss: 0.979	Acc: 67.31%	F1: 0.439
+
+TS: Epoch:   400	Loss: 0.965	Acc: 65.24%	F1: 0.440
+VS: Epoch:   400	Loss: 0.979	Acc: 64.81%	F1: 0.436
+
+TS: Epoch:   425	Loss: 0.964	Acc: 67.85%	F1: 0.444
+VS: Epoch:   425	Loss: 0.981	Acc: 67.38%	F1: 0.439
+
+TS: Epoch:   450	Loss: 0.963	Acc: 67.89%	F1: 0.445
+VS: Epoch:   450	Loss: 0.980	Acc: 67.57%	F1: 0.440
+
+TS: Epoch:   475	Loss: 0.964	Acc: 68.55%	F1: 0.445
+VS: Epoch:   475	Loss: 0.980	Acc: 68.22%	F1: 0.441
+
+TS: Epoch:   500	Loss: 0.962	Acc: 67.08%	F1: 0.444
+VS: Epoch:   500	Loss: 0.980	Acc: 66.61%	F1: 0.438
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   500	Loss: 0.980	Acc: 66.61%	F1: 0.438
+
+Test Set:	Loss: 0.979	Acc: 66.95%	F1: 0.440
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.106	Acc: 77.24%	F1: 0.195
+VS: Epoch:     0	Loss: 1.108	Acc: 76.91%	F1: 0.180
+
+TS: Epoch:    25	Loss: 0.992	Acc: 64.73%	F1: 0.426
+VS: Epoch:    25	Loss: 0.993	Acc: 64.54%	F1: 0.425
+
+TS: Epoch:    50	Loss: 0.982	Acc: 65.09%	F1: 0.433
+VS: Epoch:    50	Loss: 0.982	Acc: 64.85%	F1: 0.432
+
+TS: Epoch:    75	Loss: 0.973	Acc: 65.74%	F1: 0.440
+VS: Epoch:    75	Loss: 0.975	Acc: 65.42%	F1: 0.437
+
+TS: Epoch:   100	Loss: 0.970	Acc: 65.09%	F1: 0.441
+VS: Epoch:   100	Loss: 0.974	Acc: 64.77%	F1: 0.438
+
+TS: Epoch:   125	Loss: 0.969	Acc: 64.14%	F1: 0.441
+VS: Epoch:   125	Loss: 0.974	Acc: 63.83%	F1: 0.436
+
+TS: Epoch:   150	Loss: 0.968	Acc: 62.86%	F1: 0.439
+VS: Epoch:   150	Loss: 0.974	Acc: 62.40%	F1: 0.433
+
+TS: Epoch:   175	Loss: 0.966	Acc: 66.45%	F1: 0.444
+VS: Epoch:   175	Loss: 0.974	Acc: 66.05%	F1: 0.439
+
+TS: Epoch:   200	Loss: 0.967	Acc: 63.60%	F1: 0.440
+VS: Epoch:   200	Loss: 0.974	Acc: 63.26%	F1: 0.436
+
+TS: Epoch:   225	Loss: 0.964	Acc: 65.71%	F1: 0.444
+VS: Epoch:   225	Loss: 0.974	Acc: 65.24%	F1: 0.438
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   225	Loss: 0.974	Acc: 65.24%	F1: 0.438
+
+Test Set:	Loss: 0.972	Acc: 65.54%	F1: 0.442
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.108	Acc: 75.42%	F1: 0.174
+VS: Epoch:     0	Loss: 1.106	Acc: 75.59%	F1: 0.176
+
+TS: Epoch:    25	Loss: 0.990	Acc: 64.54%	F1: 0.427
+VS: Epoch:    25	Loss: 0.991	Acc: 64.72%	F1: 0.429
+
+TS: Epoch:    50	Loss: 0.975	Acc: 65.70%	F1: 0.436
+VS: Epoch:    50	Loss: 0.980	Acc: 65.36%	F1: 0.433
+
+TS: Epoch:    75	Loss: 0.969	Acc: 65.92%	F1: 0.439
+VS: Epoch:    75	Loss: 0.974	Acc: 65.94%	F1: 0.439
+
+TS: Epoch:   100	Loss: 0.968	Acc: 64.52%	F1: 0.438
+VS: Epoch:   100	Loss: 0.973	Acc: 64.33%	F1: 0.436
+
+TS: Epoch:   125	Loss: 0.967	Acc: 63.76%	F1: 0.439
+VS: Epoch:   125	Loss: 0.974	Acc: 63.44%	F1: 0.434
+
+TS: Epoch:   150	Loss: 0.966	Acc: 66.99%	F1: 0.442
+VS: Epoch:   150	Loss: 0.974	Acc: 66.69%	F1: 0.439
+
+TS: Epoch:   175	Loss: 0.966	Acc: 67.22%	F1: 0.441
+VS: Epoch:   175	Loss: 0.974	Acc: 66.88%	F1: 0.437
+
+TS: Epoch:   200	Loss: 0.964	Acc: 65.34%	F1: 0.442
+VS: Epoch:   200	Loss: 0.973	Acc: 64.92%	F1: 0.437
+
+TS: Epoch:   225	Loss: 0.966	Acc: 67.36%	F1: 0.442
+VS: Epoch:   225	Loss: 0.975	Acc: 67.06%	F1: 0.438
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   225	Loss: 0.975	Acc: 67.06%	F1: 0.438
+
+Test Set:	Loss: 0.971	Acc: 67.72%	F1: 0.447
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.107	Acc: 80.20%	F1: nan
+VS: Epoch:     0	Loss: 1.106	Acc: 80.20%	F1: nan
+
+TS: Epoch:    25	Loss: 0.986	Acc: 65.07%	F1: 0.430
+VS: Epoch:    25	Loss: 0.986	Acc: 65.44%	F1: 0.430
+
+TS: Epoch:    50	Loss: 0.975	Acc: 67.27%	F1: 0.437
+VS: Epoch:    50	Loss: 0.979	Acc: 67.80%	F1: 0.439
+
+TS: Epoch:    75	Loss: 0.970	Acc: 64.99%	F1: 0.439
+VS: Epoch:    75	Loss: 0.976	Acc: 65.25%	F1: 0.438
+
+TS: Epoch:   100	Loss: 0.967	Acc: 66.04%	F1: 0.441
+VS: Epoch:   100	Loss: 0.973	Acc: 66.24%	F1: 0.438
+
+TS: Epoch:   125	Loss: 0.965	Acc: 67.70%	F1: 0.445
+VS: Epoch:   125	Loss: 0.974	Acc: 67.76%	F1: 0.440
+
+TS: Epoch:   150	Loss: 0.965	Acc: 68.48%	F1: 0.445
+VS: Epoch:   150	Loss: 0.975	Acc: 68.43%	F1: 0.439
+
+TS: Epoch:   175	Loss: 0.964	Acc: 66.88%	F1: 0.444
+VS: Epoch:   175	Loss: 0.974	Acc: 66.99%	F1: 0.440
+
+TS: Epoch:   200	Loss: 0.964	Acc: 65.86%	F1: 0.443
+VS: Epoch:   200	Loss: 0.973	Acc: 66.13%	F1: 0.441
+
+TS: Epoch:   225	Loss: 0.963	Acc: 67.47%	F1: 0.444
+VS: Epoch:   225	Loss: 0.973	Acc: 67.68%	F1: 0.441
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   225	Loss: 0.973	Acc: 67.68%	F1: 0.441
+
+Test Set:	Loss: 0.972	Acc: 66.93%	F1: 0.435
+
+Tensorflow session closed.
+
+TS: Epoch:     0	Loss: 1.098	Acc: 76.11%	F1: 0.145
+VS: Epoch:     0	Loss: 1.097	Acc: 76.39%	F1: 0.150
+
+TS: Epoch:    25	Loss: 0.985	Acc: 68.25%	F1: 0.435
+VS: Epoch:    25	Loss: 0.981	Acc: 67.91%	F1: 0.432
+
+TS: Epoch:    50	Loss: 0.975	Acc: 66.46%	F1: 0.439
+VS: Epoch:    50	Loss: 0.975	Acc: 66.15%	F1: 0.437
+
+TS: Epoch:    75	Loss: 0.971	Acc: 67.95%	F1: 0.441
+VS: Epoch:    75	Loss: 0.973	Acc: 67.50%	F1: 0.438
+
+TS: Epoch:   100	Loss: 0.970	Acc: 68.20%	F1: 0.442
+VS: Epoch:   100	Loss: 0.973	Acc: 67.68%	F1: 0.437
+
+TS: Epoch:   125	Loss: 0.973	Acc: 63.04%	F1: 0.436
+VS: Epoch:   125	Loss: 0.977	Acc: 62.73%	F1: 0.433
+
+TS: Epoch:   150	Loss: 0.967	Acc: 66.04%	F1: 0.442
+VS: Epoch:   150	Loss: 0.973	Acc: 65.42%	F1: 0.435
+
+TS: Epoch:   175	Loss: 0.966	Acc: 66.97%	F1: 0.443
+VS: Epoch:   175	Loss: 0.972	Acc: 66.22%	F1: 0.433
+
+TS: Epoch:   200	Loss: 0.965	Acc: 66.63%	F1: 0.443
+VS: Epoch:   200	Loss: 0.973	Acc: 66.02%	F1: 0.436
+
+TS: Epoch:   225	Loss: 0.964	Acc: 66.36%	F1: 0.443
+VS: Epoch:   225	Loss: 0.973	Acc: 65.75%	F1: 0.436
+
+TS: Epoch:   250	Loss: 0.964	Acc: 67.70%	F1: 0.445
+VS: Epoch:   250	Loss: 0.974	Acc: 66.98%	F1: 0.436
+
+TS: Epoch:   275	Loss: 0.964	Acc: 64.61%	F1: 0.441
+VS: Epoch:   275	Loss: 0.975	Acc: 64.08%	F1: 0.435
+
+TS: Epoch:   300	Loss: 0.963	Acc: 65.97%	F1: 0.443
+VS: Epoch:   300	Loss: 0.974	Acc: 65.53%	F1: 0.437
+
+-->> Patience reached: stop training
+
+Final VS: Epoch:   300	Loss: 0.974	Acc: 65.53%	F1: 0.437
+
+Test Set:	Loss: 0.970	Acc: 65.76%	F1: 0.442
+
+Tensorflow session closed.
+
