@@ -79,6 +79,8 @@ class NN_Sigmoid:
         set can be larger than or equal to the previously smallest loss before 
         network training stops. 
         """
+
+        return acc_history, f1_history, cost_history, val_acc_history, val_f1_history, val_cost_history, val_epoch
    
    def predict(self, testX, testY)
          """
@@ -86,6 +88,8 @@ class NN_Sigmoid:
         
         evaluate based on "testY".
         """
+
+        return predicted, loss, acc, f1
 ```
 
 ### Results
