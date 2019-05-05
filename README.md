@@ -90,5 +90,21 @@ class NN_Sigmoid:
 
 ### Results
 
-![ROCPR figure](Results/ROCPR.png)
+Optimizers comparison:  
+![](Results/optimizer.png)
+
+Learning rates for Adam comparison:  
+![](Results/lr.png)
+
+Depth comparison (overfitting occur):  
+![](Results/nhl.png)
+
+Training:    
+* 1 hidden layer with 10 units   
+* Optimizer = Adam with lr = 0.05     
+![](Results/training.png) 
+
+
+ROC and PR curves:    
+![](Results/ROCPR.png)  
 
